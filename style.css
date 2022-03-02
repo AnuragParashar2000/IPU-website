@@ -7,18 +7,15 @@
     font-family: "Poppins", sans-serif;
   }
 
-body{
-    height: 2000px;
-}
-
 .nav-link{
     color: white;
     font-weight: 700;
 }
 
-/* .ipu-logo{
-    width: 120px;
-} */
+.ipu-logo{
+    height: 80px;
+    margin-right: 10px;
+}
 
 
 .trn {
@@ -42,10 +39,115 @@ body{
     margin-top: -102px;
 } */
 
+.carousel-color{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2;
+  opacity: 0.4;
+}
+
+.carousel-button{
+  z-index: 3;
+}
+
+.carousel-div{
+  position: relative;
+}
+/* urgent notices */
+
+
+/* notice */
+.notice{
+  margin: 100px;
+}
+
+.col{
+  /* border: 2px solid #041D53; */
+  margin-right: 20px;
+  border-radius: 10px;
+  text-align: center;
+  /* color: white; */
+}
+
+.col li{
+  text-align: left;
+}
+
+#col-1{
+  background: #b9eafc69;
+  /* background: #24556d;
+  background-image: -webkit-linear-gradient(top, #11364850, #60c7fa);
+  background-image: -moz-linear-gradient(top, #11364850, #3a96c4);
+  background-image: -ms-linear-gradient(top, #11364850, #5d8fa8);
+  background-image: -o-linear-gradient(top, #11364850, #3892be);
+  background-image: -webkit-gradient(to bottom, #11364850, #4dbaf0); */
+}
+
+#col-2{
+  background: #b9eafc69;
+  /* background: #B8AD4A;
+  background-image: -webkit-linear-gradient(top, #B8AD4A, #B8AD4A);
+  background-image: -moz-linear-gradient(top, #B8AD4A, #B8AD4A);
+  background-image: -ms-linear-gradient(top, #B8AD4A, #B8AD4A);
+  background-image: -o-linear-gradient(top, #B8AD4A, #B8AD4A);
+  background-image: -webkit-gradient(to bottom, #B8AD4A, #B8AD4A); */
+}
+
+#col-3{
+  background: #b9eafc69;
+  /* background-image: -webkit-linear-gradient(top, #267B9A, #267B9A);
+  background-image: -moz-linear-gradient(top, #267B9A, #267B9A);
+  background-image: -ms-linear-gradient(top, #267B9A, #267B9A);
+  background-image: -o-linear-gradient(top, #267B9A, #267B9A);
+  background-image: -webkit-gradient(to bottom, #267B9A, #267B9A); */
+}
+
+#col-4{
+  background: #b9eafc69;
+  /* background: #45161F;
+  background-image: -webkit-linear-gradient(top, #45161F, #45161F);
+  background-image: -moz-linear-gradient(top, #45161F, #45161F);
+  background-image: -ms-linear-gradient(top, #45161F, #45161F);
+  background-image: -o-linear-gradient(top, #45161F, #45161F);
+  background-image: -webkit-gradient(to bottom, #45161F, #45161F); */
+}
+
+.col a{
+  color: black;
+  text-decoration: none;
+}
+
+.col p{
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.col a:hover{
+  color: blue;
+}
+
+.notice-button{
+  background-color: #041D53;
+  color: #FFCB04;
+  border-radius: 50px;
+  padding: 2% 6%;
+  margin: 1% auto;
+  font-weight: 700;
+}
+
+.notice-button:hover {
+  transform: translateX(20px);
+  transition: 0.5s;
+}
+
 
 /* footer */
 .footer {
     position: relative;
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
     background: #041D53;
     min-height: 100px;
@@ -106,17 +208,17 @@ body{
   
   .wave {
     position: absolute;
-    top: -100px;
+    top: -70px;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 70px;
     background: url('images/wave2.png');
     background-size: 1000px 100px;
   }
   
   .wave#wave1 {
     z-index: 1000;
-    opacity: 1;
+    opacity: 0.8;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
@@ -159,4 +261,3 @@ body{
       background-positon-x: 0px;
     }
   }
-  
