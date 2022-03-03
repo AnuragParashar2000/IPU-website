@@ -263,6 +263,7 @@ marquee{
   
   .menu__link:hover {
     opacity: 1;
+    color: #FFCB04;
   }
   
   .footer p {
@@ -279,7 +280,7 @@ marquee{
     width: 33.31%
   }
   
-  .wave {
+  /* .wave {
     position: absolute;
     top: -70px;
     left: 0;
@@ -315,7 +316,7 @@ marquee{
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
-  }
+  } */
   
   @keyframes animateWaves {
     0% {
