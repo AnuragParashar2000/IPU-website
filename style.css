@@ -40,6 +40,18 @@
     margin-top: -102px;
 } */
 
+.dropDown-heading{
+  font-weight: 700;
+}
+
+.navbar .nav-link:hover{
+  color: #FFCB04;
+}
+
+.dropdown-menu{
+  background: #b9eafce0;
+}
+
 /* carousel */
 
 .carousel-image{
@@ -52,7 +64,7 @@
   height: 100%;
   background-color: black;
   z-index: 2;
-  opacity: 0.4;
+  opacity: 0.4
 }
 
 .carousel-button, .carousel-indicators{
