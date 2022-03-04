@@ -215,7 +215,7 @@ marquee{
   }
   .grid-container{
     display: grid;
-    column-gap: 50px;
+    column-gap: 10px;
     grid-template-columns: auto auto auto auto;
     
   }
@@ -224,7 +224,7 @@ marquee{
     text-align: center;
   }
   .grid-item-list{
-    padding: 25px 70px;
+    padding: 25px 10px;
     text-align: center;
   }
   /* .icon_col-4{
@@ -275,10 +275,10 @@ marquee{
 
   .footer-image{
     position: absolute;
-    left: 2px;
+    left: 20px;
     bottom: 62%;
   }
-
+  
   .col-4{
     color: white;
     text-align: center;
