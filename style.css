@@ -13,6 +13,10 @@
     font-weight: 700;
 }
 
+.nav-link:focus{
+  color: #fff;
+}
+
 .ipu-logo{
     height: 80px;
     margin-right: 10px;
@@ -44,12 +48,28 @@
   font-weight: 700;
 }
 
+.dropDown-heading li{
+  color: black;
+  text-decoration: none;
+}
+
 .navbar .nav-link:hover{
   color: #FFCB04;
 }
 
 .dropdown-menu{
-  background: #b9eafce0;
+  background: white;
+}
+
+.dropdown-item:hover{
+  color: #4ecdfc;
+}
+
+.dropdown-item{
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* carousel */
@@ -75,6 +95,23 @@
   position: relative;
 }
 
+/* marquee */
+.alert-marquee{
+  background-color: #b9eafcec;
+  padding: 4px;
+  font-weight: 600;
+  font-size: large;
+}
+
+.alert-marquee a{
+  color: black;
+  text-decoration: none;
+}
+
+.alert-marquee a:hover{
+  color: blue;
+}
+
 /* urgent notices */
 .urgent-notice{
   background-color: #041D53;
@@ -85,6 +122,7 @@
 
 .urgent-notice ul{
   list-style: none;
+  /* text-align: left; */
 }
 
 .urgent-notice h3{
@@ -99,6 +137,9 @@
 .urgent-notice a:hover{
   color: #FFCB04;
 }
+
+
+
 
 /* notice */
 .notice{
@@ -188,6 +229,7 @@ marquee{
     position: relative;
     /* position: absolute;
     bottom: 0; */
+    margin-top: 8%;
     width: 100%;
     background: #041D53;
     min-height: 100px;
@@ -216,7 +258,7 @@ marquee{
   .grid-container{
     display: grid;
     column-gap: 10px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     
   }
 
@@ -276,7 +318,13 @@ marquee{
   .footer-image{
     position: absolute;
     left: 20px;
-    bottom: 62%;
+    bottom: 55.5%;
+    
+  }
+
+  .footer-image img{
+    width: 100%;
+    height: 180px;
   }
   
   .col-4{
