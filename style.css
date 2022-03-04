@@ -216,7 +216,7 @@ marquee{
   .grid-container{
     display: grid;
     column-gap: 50px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     
   }
 
@@ -271,6 +271,12 @@ marquee{
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
+  }
+
+  .footer-image{
+    position: absolute;
+    left: 2px;
+    bottom: 62%;
   }
 
   .col-4{
