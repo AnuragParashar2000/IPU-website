@@ -49,7 +49,7 @@
 }
 
 .dropDown-heading li{
-  color: black;
+  color: black!important;
   text-decoration: none;
 }
 
@@ -72,6 +72,13 @@
   overflow: hidden;
 }
 
+.row{
+  min-width: 540px;
+}
+
+.w-50{
+  min-width: 270px;
+}
 /* carousel */
 
 .carousel-image{
