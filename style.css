@@ -53,6 +53,11 @@
   text-decoration: none;
 }
 
+.dropDown-heading:hover{
+  background-color: white;
+  /* color: black; */
+}
+
 .navbar .nav-link:hover{
   color: #FFCB04;
 }
@@ -61,7 +66,7 @@
   background: white;
 }
 
-.dropdown-item:hover{
+.dropDown-item-color:hover{
   color: #4ecdfc;
 }
 
