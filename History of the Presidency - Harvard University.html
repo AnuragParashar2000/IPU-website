@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.harvard.edu/president/history/ -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+		<script type="text/javascript" src="./History of the Presidency - Harvard University_files/NRJS-415bcf4c4af1a9108ef"></script><script src="./History of the Presidency - Harvard University_files/nr-1215.min.js.download"></script><script src="./History of the Presidency - Harvard University_files/116026588849778" async=""></script><script async="" src="./History of the Presidency - Harvard University_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./History of the Presidency - Harvard University_files/analytics.js.download"></script><script type="text/javascript" async="" src="./History of the Presidency - Harvard University_files/js"></script><script async="" src="./History of the Presidency - Harvard University_files/gtm.js.download"></script><script type="text/javascript" async="" src="./History of the Presidency - Harvard University_files/f.txt"></script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-415bcf4c4af1a9108ef",applicationID:"400299824"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<meta name="author" content="Harvard University President">
+	<link rel="pingback" href="https://www.harvard.edu/president/xmlrpc.php">
+
+		<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="apple-mobile-web-app-title" content="History of the Presidency">
+
+		<meta name="application-name" content="Harvard University President">
+
+	
+		<script>
+			function is_ie() {
+				var ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+				var msie = ua.indexOf('MSIE '); // IE 10 or older
+				var trident = ua.indexOf('Trident/'); //IE 11
+
+				return (msie > 0 || trident > 0);
+			}
+
+			function not_excluded_page() {
+				return (window.location.href.indexOf("/unsupported-browser/") === - 1 && document.title.toLowerCase().indexOf('page not found') === - 1);
+			}
+
+			if (is_ie() && not_excluded_page()) {
+				window.location = location.protocol + '//' + location.host + '/unsupported-browser/';
+			}
+		</script>
+
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v16.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>History of the Presidency - Harvard University</title>
+	<meta name="description" content="Historical listsing and biographies of the Presidents of Harvard University, from Henry Dunster to Larry Bacow.">
+	<link rel="canonical" href="https://www.harvard.edu/president/history/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="History of the Presidency - Harvard University">
+	<meta property="og:description" content="Historical listsing and biographies of the Presidents of Harvard University, from Henry Dunster to Larry Bacow.">
+	<meta property="og:url" content="https://www.harvard.edu/president/history/">
+	<meta property="og:site_name" content="Harvard University President">
+	<meta property="article:modified_time" content="2021-06-07T16:03:02+00:00">
+	<meta property="og:image" content="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-1200x630.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://www.harvard.edu/">
+<link rel="alternate" type="application/rss+xml" title="Harvard University President » History of the Presidency Comments Feed" href="https://www.harvard.edu/president/history/feed/">
+<link rel="stylesheet" id="tribe-styles-filters-css" href="./History of the Presidency - Harvard University_files/filters.min.css" media="all">
+<link rel="stylesheet" id="tribe-styles-master-css" href="./History of the Presidency - Harvard University_files/master.min.css" media="all">
+<link rel="stylesheet" id="tribe-styles-print-css" href="./History of the Presidency - Harvard University_files/print.min.css" media="print">
+<script src="./History of the Presidency - Harvard University_files/jquery.min.js.download" id="jquery-core-js"></script>
+<script src="./History of the Presidency - Harvard University_files/gtm4wp-form-move-tracker.js.download" id="gtm4wp-form-move-tracker-js"></script>
+<link rel="https://api.w.org/" href="https://www.harvard.edu/president/wp-json/"><link rel="alternate" type="application/json" href="https://www.harvard.edu/president/wp-json/wp/v2/pages/5636"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.harvard.edu/president/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.harvard.edu/president/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.7.5">
+<link rel="shortlink" href="https://www.harvard.edu/president/?p=5636">
+<link rel="alternate" type="application/json+oembed" href="https://www.harvard.edu/president/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.harvard.edu%2Fpresident%2Fhistory%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.harvard.edu/president/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.harvard.edu%2Fpresident%2Fhistory%2F&amp;format=xml">
+<link rel="preload" href="./History of the Presidency - Harvard University_files/scripts.min.js.download" as="script">
+<link rel="preload" href="./History of the Presidency - Harvard University_files/vendor.min.js.download" as="script">
+
+		<!-- Google Custom Search -->
+		<script>
+			var modernTribe = window.modern_tribe || {};
+			modernTribe.events = {
+				trigger: function (event_type, event_data, el) {
+					var event;
+					try {
+						event = new CustomEvent(event_type, {detail: event_data});
+					} catch (e) {
+						event = document.createEvent('CustomEvent');
+						event.initCustomEvent(event_type, true, true, event_data);
+					}
+					el.dispatchEvent(event);
+				}
+			};
+			var coreCallback = function () {
+				if (document.readyState == 'complete') {
+					modernTribe.events.trigger('google_custom_search_loaded', null, document);
+				} else {
+					google.setOnLoadCallback(function () {
+						modernTribe.events.trigger('google_custom_search_loaded', null, document);
+					}, true);
+				}
+			};
+			var resultsRenderedCallback = function () {
+				if (document.readyState == 'complete') {
+					modernTribe.events.trigger('google_custom_search_results_rendered', null, document);
+				} else {
+					google.setOnLoadCallback(function () {
+						modernTribe.events.trigger('google_custom_search_results_rendered', null, document);
+					}, true);
+				}
+			};
+			window.__gcse = {
+				callback: coreCallback,
+				searchCallbacks: {
+					web: {
+						rendered: 'resultsRenderedCallback',
+					},
+				}
+			};
+			(function () {
+				var cx = '006776768860476326824:djdkkotb2_0';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//cse.google.com/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			})();
+		</script>
+		<!-- End Google Custom Search -->
+
+		<meta name="theme-color" content="#ffffff">
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
+	var dataLayer_content = {"siteID":"2","siteName":"Harvard University President","visitorLoginState":"logged-out","pageTitle":"History of the Presidency - Harvard University","pagePostType":"page","pagePostType2":"single-page","pagePostAuthorID":1,"pagePostDate":"January 21, 2021","pagePostDateYear":"2021","pagePostDateMonth":"01","pagePostDateDay":"21","pagePostTerms":[],"browserName":"Chrome","browserVersion":"99.0.4844.51","browserEngineName":"Blink","browserEngineVersion":"","osName":"Windows","osVersion":"10.0","deviceType":"desktop","deviceManufacturer":"","deviceModel":"","postCountOnPage":1,"postCountTotal":1,"postID":5636,"postFormat":"standard"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5SGSF6G');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="icon" href="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/cropped-cropped-logo-branding-compressed-32x32.png" sizes="32x32">
+<link rel="icon" href="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/cropped-cropped-logo-branding-compressed-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/cropped-cropped-logo-branding-compressed-180x180.png">
+<meta name="msapplication-TileImage" content="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/cropped-cropped-logo-branding-compressed-270x270.png">
+		<style id="wp-custom-css">
+			/** 
+Temporary fix for Firefox v 78  
+removed 
+:not(.is-style-XX-Large.has-text-align-center)
+
+**/
+.t-sink > .wp-block-group__inner-container > :not(.c-block):not(.alignwide):not(.html-alignwide):not(.align-wide):not(.alignfull):not(.wp-block-embed):not(.is-style-pull-quote) {
+    max-width: 624px;
+    width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.l-sink > :not(.c-block):not(.alignwide):not(.html-alignwide):not(.alignfull):not(.wp-block-embed):not(.is-style-pull-quote):not(.wp-block-group__inner-container) {
+	    max-width: 624px;
+    width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**
+ * Adjust video overlay for
+ * "Season's Greetings" video
+ * on .postid-7184
+ **/
+.postid-7184 .c-video__trigger:before {
+	background: linear-gradient(0deg,rgba(0,0,0,.5) 10%,transparent);
+}		</style>
+		
+<script src="./History of the Presidency - Harvard University_files/cse_element__en.js.download" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="./History of the Presidency - Harvard University_files/default+en.css"><link type="text/css" rel="stylesheet" href="./History of the Presidency - Harvard University_files/default.css"><style type="text/css">.gsc-control-cse{font-family:times new roman, arial, serif}.gsc-control-cse .gsc-table-result{font-family:times new roman, arial, serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}.gsc-control-cse{border-color:#ffffff;background-color:#ffffff}input.gsc-input,.gsc-input-box,.gsc-input-box-hover,.gsc-input-box-focus{border-color:#BCCDF0}.gsc-search-button-v2,.gsc-search-button-v2:hover,.gsc-search-button-v2:focus{border-color:#666666;background-color:#CECECE;background-image:none;filter:none}.gsc-search-button-v2 svg{fill:#FFFFFF}.gsc-tabHeader.gsc-tabhActive,.gsc-refinementHeader.gsc-refinementhActive{color:#CCCCCC;border-color:#CCCCCC;background-color:#FFFFFF}.gsc-tabHeader.gsc-tabhInactive,.gsc-refinementHeader.gsc-refinementhInactive{color:#CCCCCC;border-color:#CCCCCC;background-color:#FFFFFF}.gsc-webResult.gsc-result,.gsc-results .gsc-imageResult{border-color:#FFFFFF;background-color:#FFFFFF}.gsc-webResult.gsc-result:hover{border-color:#FFFFFF;background-color:#FFFFFF}.gs-webResult.gs-result a.gs-title:link,.gs-webResult.gs-result a.gs-title:link b,.gs-imageResult a.gs-title:link,.gs-imageResult a.gs-title:link b{color:#0000CC}.gs-webResult.gs-result a.gs-title:visited,.gs-webResult.gs-result a.gs-title:visited b,.gs-imageResult a.gs-title:visited,.gs-imageResult a.gs-title:visited b{color:#0000CC}.gs-webResult.gs-result a.gs-title:hover,.gs-webResult.gs-result a.gs-title:hover b,.gs-imageResult a.gs-title:hover,.gs-imageResult a.gs-title:hover b{color:#0000CC}.gs-webResult.gs-result a.gs-title:active,.gs-webResult.gs-result a.gs-title:active b,.gs-imageResult a.gs-title:active,.gs-imageResult a.gs-title:active b{color:#0000CC}.gsc-cursor-page{color:#0000CC}a.gsc-trailing-more-results:link{color:#0000CC}.gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet,.gs-fileFormatType{color:#000000}.gs-webResult div.gs-visibleUrl{color:#008000}.gs-webResult div.gs-visibleUrl-short{color:#008000}.gsc-cursor-box{border-color:#FFFFFF}.gsc-results .gsc-cursor-box .gsc-cursor-page{border-color:#CCCCCC;background-color:#FFFFFF;color:#CCCCCC}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{border-color:#CCCCCC;background-color:#FFFFFF;color:#CCCCCC}.gsc-webResult.gsc-result.gsc-promotion{border-color:#336699;background-color:#FFFFFF}.gsc-completion-title{color:#0000CC}.gsc-completion-snippet{color:#000000}.gs-promotion a.gs-title:link,.gs-promotion a.gs-title:link *,.gs-promotion .gs-snippet a:link{color:#0000CC}.gs-promotion a.gs-title:visited,.gs-promotion a.gs-title:visited *,.gs-promotion .gs-snippet a:visited{color:#0000CC}.gs-promotion a.gs-title:hover,.gs-promotion a.gs-title:hover *,.gs-promotion .gs-snippet a:hover{color:#0000CC}.gs-promotion a.gs-title:active,.gs-promotion a.gs-title:active *,.gs-promotion .gs-snippet a:active{color:#0000CC}.gs-promotion .gs-snippet,.gs-promotion .gs-title .gs-promotion-title-right,.gs-promotion .gs-title .gs-promotion-title-right *{color:#000000}.gs-promotion .gs-visibleUrl,.gs-promotion .gs-visibleUrl-short{color:#008000}.gcsc-find-more-on-google{color:#0000CC}.gcsc-find-more-on-google-magnifier{fill:#0000CC}</style></head>
+
+<body class="page-template-default page page-id-5636 wp-embed-responsive is-child-theme page-history browser-chrome">
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SGSF6G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->	<div class="l-wrapper" data-js="site-wrap">
+
+		<a href="https://www.harvard.edu/president/history/#main-content" class="a11y-skip-link u-visually-hidden">
+			Skip to main content		</a>
+
+		
+
+		<header class="c-childmasthead" aria-label="Harvard University President">
+			<div class="c-childmasthead__backlink c-childmasthead--container">
+			<a title="Visit Harvard.edu" href="https://www.harvard.edu/">
+			<span class="a-btn__text">
+			
+<figure class="childmasthead__backlink__logo c-image">
+
+	
+		<img class="c-image__image" alt="HARVARD UNIVERSITY" src="./History of the Presidency - Harvard University_files/harvard-long-light-text.svg">
+	
+	
+</figure>
+			</span>
+	</a>
+			<a class="childmasthead__backlink__cta" title="Visit Harvard.edu" href="https://www.harvard.edu/">
+			<span class="a-btn__text">
+			Visit Harvard.edu			</span>
+	</a>
+		</div>
+		
+	<div class="c-childmasthead__header">
+		<a class="c-childmasthead__logo-site-link c-childmasthead--container" title="Harvard University President" href="https://www.harvard.edu/president">
+			
+<figure class="c-childmasthead__logo c-image">
+
+	
+		<img class="c-image__image" alt="Harvard Office of the President logo" src="./History of the Presidency - Harvard University_files/Harvard_Office_of_the_President_Signature_Horizontal_RGB-1-e1611270862326.png">
+	
+	
+</figure>
+		</a>
+					<div class="c-childmasthead__nav c-childmasthead--container" data-js="subsite-search-nav-wrapper" role="navigation" aria-label="Harvard University President Navigation and Search">
+				<button class="c-childmasthead__mobile-dropdown" data-js="subsite-nav-trigger-toggle">
+					Explore More					<i class="icon icon-chevron-down"></i>
+				</button>
+				<nav class="c-childmasthead__nav__nav" data-js="subsite-nav-resizable">
+	<div class="nav-subsite-primary__wrapper">
+				<ol class="subsite-header__nav-list" style="max-width: 889px;">
+			<li class="subsite_primary__item"><a href="https://www.harvard.edu/president/category/news/" class="subsite_primary__action" data-attribute="6830">News</a></li>
+<li class="subsite_primary__item"><a href="https://www.harvard.edu/president/category/speeches/" class="subsite_primary__action" data-attribute="6831">Speeches</a></li>
+<li class="subsite_primary__item subsite_primary__item--is-current"><a href="https://www.harvard.edu/president/history/" aria-current="page" class="subsite_primary__action" data-attribute="5653">History</a></li>
+<li class="subsite_primary__item"><a href="https://www.harvard.edu/president/contact/" class="subsite_primary__action" data-attribute="5718">Contact</a></li>
+<li class="subsite_primary__item"><a href="https://www.harvard.edu/president/biography/" class="subsite_primary__action" data-attribute="5651">Biography</a></li>
+<li class="subsite_primary__item"><a href="https://www.harvard.edu/president/inauguration/" class="subsite_primary__action" data-attribute="5652">Inauguration</a></li>
+		</ol>
+	</div>
+</nav>
+				
+<div class="c-subsite-search" role="search">
+	<button class="c-subsite-search__magnifier" data-js="subsite-search-trigger-open" aria-label="Open subsite search">
+		<span class="icon icon-search"></span>
+	</button>
+	<form class="c-subsite-search__form" action="https://www.harvard.edu/president/search/" data-js="subsite-search-form">
+		<input id="subsite-search-input" name="q_as" class="c-subsite-search__form__input" type="text" value="" placeholder="Search Harvard University President" data-js="subsite-search-input" aria-label="Subsite search">
+		<button class="c-subsite-search__form__clear" aria-label="Clear subsite search" data-js="subsite-search-trigger-clear">
+			<span class="icon icon-close"></span>
+		</button>
+		<button type="submit" class="c-subsite-search__form__submit" aria-label="Subsite search button">
+			<span class="icon icon-search"></span>
+		</button>
+	</form>
+	<button class="c-subsite-search__cross" data-js="subsite-search-trigger-close" aria-label="Close subsite search">
+		<span class="icon icon-close"></span>
+	</button>
+</div>
+			</div>
+			</div>
+
+
+</header>
+
+
+	<main id="main-content">
+
+		
+		
+<header class="c-subheader no-secondary-nav" aria-label="Primary Subheader">
+	<div class="l-container c-subheader__container">
+
+		<div class="c-subheader__content">
+			
+<h1 class="page-title h1">
+	Meet The Vice Chacellor</h1>
+								</div>
+
+			</div>
+</header>
+
+		<div class="the-follower"></div>
+
+		
+
+		<div class="s-sink t-sink l-sink">
+			
+<section class=" c-block b-media-text c-block--layout-left c-block--width-grid t-theme--light">
+	<div class="b-media-text__container l-container">
+
+		<div class="b-media-text__media an-will-animate an-was-on-viewport an-on-viewport an-on-viewport-mid an-on-viewport-full">
+							<div class="b-media-text__img-wrap">
+					
+<figure class="c-image">
+
+	
+		<img class="c-image__image lazyloaded" alt="Larry Bacow walking out of a door." data-expand="200" data-parent-fit="width" data-src="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-768x576.jpg" srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-1536x1152.jpg 1536w 1152h" data-sizes="(min-width: 1260px) 1260px, 100vw" data-srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/021118_hp_060-1536x1152.jpg 1536w 1152h" src="./History of the Presidency - Harvard University_files/021118_hp_060-768x576.jpg" sizes="(min-width: 1260px) 1260px, 100vw">
+	
+	
+</figure>
+
+				</div>
+					</div>
+
+		<div class="b-media-text__content an-will-animate an-was-on-viewport an-on-viewport an-on-viewport-mid an-on-viewport-full">
+			
+<div class="c-block__content-block c-block__header b-media-text__content-container c-content-block c-content-block--layout-left">
+
+	
+<p class="c-block__leadin b-media-text__leadin c-content-block__leadin">
+	Term of office: 2018-present</p>
+
+	
+	
+<h2 class="c-block__title b-media-text__title h3 c-content-block__title">
+	Lawrence S. Bacow</h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-media-text__text t-sink s-sink c-content-block__content">
+<p>Lawrence S. Bacow took office as the 29th President of Harvard University on July 1, 2018.</p>
+</div>
+		<p class="c-content-block__cta">
+<a class="c-block__cta-link a-btn a-btn-secondary a-btn--arrow-right  c-content-block__cta-link" href="https://www.harvard.edu/president/biography" aria-label="Learn more about Larry">
+			<span class="a-btn__text">
+			Learn more about Larry			</span>
+	</a>
+</p>
+	</div>
+
+</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<div class="c-block b-spacer all-screens"></div>
+
+
+
+<div class="wp-block-group t-sink l-sink s-sink t-sink l-sink s-sink s-tink is-style-default"><div class="wp-block-group__inner-container">
+<h2 class="h-default has-text-align-center">Past Presidents</h2>
+
+
+
+<p class="has-text-align-center"><a href="https://www.harvard.edu/president/history/#1900s">1900s</a> |&nbsp;<a href="https://www.harvard.edu/president/history/#1800s">1800s</a> | <a href="https://www.harvard.edu/president/history/#1700s">1700s</a> | <a href="https://www.harvard.edu/president/history/#1600s">1600s</a></p>
+</div></div>
+
+
+
+<section class=" c-block b-accordion">
+	<div class="b-accordion__container l-container">
+
+		
+<header class="c-block__content-block c-block__header b-accordion__header c-content-block c-content-block--layout-left">
+
+	
+	
+	
+<h2 class="c-block__title b-accordion__title h3 c-content-block__title">
+	<a name="2000s"></a></h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-accordion__description t-sink s-sink c-content-block__content">
+<h3>2000s</h3>
+</div>
+			</div>
+
+</header>
+
+		<div class="b-accordion__content">
+			<div class="c-accordion" id="accordion-group-622eea6a816b9" aria-multiselectable="true" data-js="c-accordion">
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a816d4" id="accordion-header-622eea6a816d5" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Drew Gilpin Faust<a name="drew-gilpin-faust"></a>					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a816d4" aria-labelledby="accordion-header-622eea6a816d5" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 2007-2018</strong></p>
+<p>Drew Gilpin Faust is President Emeritus and the Arthur Kingsley Porter University Professor.</p>
+<p>Faust served as the 28th president of Harvard University from July 1, 2007 through June 30, 2018. &nbsp;She was Harvard’s first female president, and the first Harvard president without a Harvard degree.</p>
+<p>As president, Faust expanded financial aid to improve access to Harvard College for students of all economic backgrounds, advocated for increased federal funding for scientific research, returned ROTC to campus, and oversaw a record-breaking $9 billion capital campaign. She broadened the University’s international reach, raised the profile of the arts on campus, embraced sustainability, launched edX, the online learning partnership with MIT, and promoted collaboration across academic disciplines and administrative units as she guided the University through a period of significant financial challenges.</p>
+<p>A historian of the Civil War and the American South, Faust was the founding dean of the Radcliffe Institute for Advanced Study at Harvard, guiding its transformation from a college into a wide-ranging institute for scholarly and creative enterprise, distinctive for its multidisciplinary focus and the exploration of new knowledge at the crossroads of traditional fields.</p>
+<p>Previously, Faust served as the Annenberg Professor of History at the University of Pennsylvania, where she was a member of the faculty for 25 years.</p>
+<p>Raised in Virginia’s Shenandoah Valley, Faust attended Concord Academy in Massachusetts. She received her bachelor’s degree from Bryn Mawr College in 1968, magna cum laude with honors in history, and her master’s degree (1971) and doctoral degree (1975) in American civilization from the University of Pennsylvania.</p>
+<p>She is the author of six books, including “Mothers of Invention: Women of the Slaveholding South in the American Civil War” (University of North Carolina Press, 1996), for which she won the Francis Parkman Prize in 1997. Her most recent book, “This Republic of Suffering: Death and the American Civil War” (Alfred A. Knopf, 2008), looks at the impact of the Civil War’s enormous death toll on the lives of 19th-century Americans. It won the Bancroft Prize in 2009, was a finalist for both a National Book Award and a Pulitzer Prize, and was named by The New York Times one of the “10 Best Books of 2008.” &nbsp;“This Republic of Suffering” is the basis for a 2012 Emmy-nominated episode of the PBS American Experience documentaries titled “Death and the Civil War,” directed by Ric Burns. She is a contributing writer at The Atlantic.</p>
+<p>Faust has been a trustee of Bryn Mawr College, the Andrew Mellon Foundation, and the National Humanities Center, and she serves on the educational advisory board of the Guggenheim Foundation. She has served as president of the Southern Historical Association, vice president of the American Historical Association, and executive board member of the Organization of American Historians and the Society of American Historians. Faust has also served on numerous editorial boards and selection committees, including the Pulitzer Prize history jury in 1986, 1990, and 2004.</p>
+<p>Her honors include awards in 1982 and 1996 for distinguished teaching at the University of Pennsylvania. She was elected to the Society of American Historians in 1993, the American Academy of Arts and Sciences in 1994, and the American Philosophical Society in 2004. In September of 2018 she was awarded the John W. Kluge Prize for Achievement in the Study of Humanity by the Library of Congress.</p>
+<p>Faust is married to Charles Rosenberg, one of the nation’s leading historians of medicine and science, who is the Ernest E. Monrad Research Professor of the Social Sciences at Harvard. Faust and Rosenberg have two daughters, Jessica Rosenberg, a 2004 summa cum laude graduate of Harvard College, and Leah Rosenberg, Faust’s stepdaughter, a scholar of Caribbean literature.</p>
+<ul>
+<li><a href="https://www.harvard.edu/president/category/news-faust/">News and statements by President Faust</a></li>
+<li><a href="https://www.harvard.edu/president/category/speeches-faust/">Speeches by President Faust</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="260" src="./History of the Presidency - Harvard University_files/210-faust-2018-commencement.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Faust giving a speech" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a816d6" id="accordion-header-622eea6a816d7" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Lawrence H. Summers					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a816d6" aria-labelledby="accordion-header-622eea6a816d7" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 2001-2006</strong></p>
+<p>Lawrence H. Summers is President&nbsp;<em>Emeritus</em>&nbsp;and Charles W. Eliot Professor of Harvard University. He has served in a series of senior public policy positions, including Director of the National Economic Council for the Obama Administration from 2009 to 2011, and Secretary of the Treasury of the United States, from 1999 to 2001. He received his bachelor of science from the Massachusetts Institute of Technology in 1975 and a Ph.D. from Harvard in 1982.</p>
+<p>In 1983, he became one of the youngest individuals in recent history to be named a tenured member of Harvard’s faculty. In 1987, he became the first social scientist ever to receive the annual Alan T. Waterman Award of the National Science Foundation (NSF), established by Congress to honor an exceptional young U.S. scientist or engineer whose work demonstrates originality and a significant impact within one’s field. In 1993, Mr. Summers was awarded the John Bates Clark Medal, given every two years to the outstanding American economist under the age of 40. Mr. Summers took leave from Harvard in 1991 to return to Washington, this time as vice president of development economics and chief economist of the World Bank.</p>
+<p>In 1993, Summers was named as the nation’s Undersecretary of the Treasury for International Affairs. In 1995, then Secretary Robert E. Rubin promoted Mr. Summers to the department’s number-two post, Deputy Secretary of the Treasury, in which he played a central role in a broad array of economic, financial, and tax matters, both international and domestic. On July 2, 1999, the United States Senate confirmed Mr. Summers as Secretary of the Treasury. At the end of his term as Treasury Secretary, Mr. Summers was awarded the Alexander Hamilton Medal, the treasury department’s highest honor.</p>
+<p>On July 1, 2001, Mr. Summers took office as the 27th president of Harvard University. As president he oversaw significant growth in the faculties, the further internationalization of the Harvard experience, expanded efforts in and enhanced commitment to the sciences, laying the ground work for Harvard’s future development of an expanded campus in Allston, and improved efforts to attract the strongest students, regardless of financial circumstance, with the Harvard Financial Aid Initiative. These initiatives were sustained by five years of successful fundraising and strong endowment returns.</p>
+<p>In 2009, Mr. Summers was appointed to serve as the Director of the National Economic Council for the Obama Administration.&nbsp; He returned to his position at Harvard in early 2011.&nbsp; As Director of the White House National Economic Council and Assistant to the President for Economic Policy, Summers served as a key economic decision-maker in the Obama administration. Mr. Summers was the chief White House advisor to the President on the development and implementation of economic policy and led the President’s daily economic briefing. He was also a frequent public spokesman for the Administration’s policies.</p>
+<p>Born in New Haven, Connecticut, on November 30, 1954, Mr. Summers spent most of his childhood in Penn Valley, Pennsylvania, a suburb of Philadelphia, and was educated in the Lower Merion public schools. He and his wife Elisa New, a professor of English at Harvard, reside in Brookline with their six children.</p>
+<ul>
+<li><a href="https://www.harvard.edu/president/category/news-speeches-summers/">News and speeches by President Summers</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/summers.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Larry Summers Smiling" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+	</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<section class=" c-block b-media-text c-block--layout-right c-block--width-grid t-theme--light">
+	<div class="b-media-text__container l-container">
+
+		<div class="b-media-text__media an-will-animate an-was-on-viewport">
+							<div class="b-media-text__img-wrap">
+					
+<figure class="c-image">
+
+	
+		<img class="c-image__image lazyloaded" alt="Students ringing the bells above Lowell House." data-expand="200" data-parent-fit="width" data-src="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-768x576.jpg" srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-1536x1152.jpg 1536w 1152h" data-sizes="(min-width: 1260px) 1260px, 100vw" data-srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/031520_features_RL_0780-1536x1152.jpg 1536w 1152h" src="./History of the Presidency - Harvard University_files/031520_features_RL_0780-768x576.jpg" sizes="(min-width: 1260px) 1260px, 100vw">
+	
+	
+</figure>
+
+				</div>
+					</div>
+
+		<div class="b-media-text__content an-will-animate an-was-on-viewport">
+			
+<div class="c-block__content-block c-block__header b-media-text__content-container c-content-block c-content-block--layout-left">
+
+	
+<p class="c-block__leadin b-media-text__leadin c-content-block__leadin">
+	What’s in a name?</p>
+
+	
+	
+<h2 class="c-block__title b-media-text__title h3 c-content-block__title">
+	Lowell House</h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-media-text__text t-sink s-sink c-content-block__content">
+<p>Named for Harvard President Abbott Lawrence Lowell and his family, the Lowell House, constructed in 1930, is home to a collection of 17 Russian bells, which were given as a gift in 1930.</p>
+</div>
+			</div>
+
+</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<p class="has-text-align-center"><a href="https://www.harvard.edu/president/history/#">Back to top</a></p>
+
+
+
+<section class=" c-block b-accordion">
+	<div class="b-accordion__container l-container">
+
+		
+<header class="c-block__content-block c-block__header b-accordion__header c-content-block c-content-block--layout-left">
+
+	
+	
+	
+<h2 class="c-block__title b-accordion__title h3 c-content-block__title">
+	 <a name="1900s"></a></h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-accordion__description t-sink s-sink c-content-block__content">
+<h3>1900s</h3>
+</div>
+			</div>
+
+</header>
+
+		<div class="b-accordion__content">
+			<div class="c-accordion" id="accordion-group-622eea6a84505" aria-multiselectable="true" data-js="c-accordion">
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8452a" id="accordion-header-622eea6a8452b" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Neil L. Rudenstine					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8452a" aria-labelledby="accordion-header-622eea6a8452b" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1991-2001</strong></p>
+<p>Neil L. Rudenstine (1935-) served as Harvard’s president from 1991-2001. Rudenstine, a scholar of Renaissance literature, received his Ph.D. from Harvard in 1964. After serving as a faculty member at Harvard for four years, he joined the faculty at Princeton, where he had earned his undergraduate degree.</p>
+<p>At Princeton, Rudenstine held a number of posts in academic administration, including dean of students, dean of the college, and provost.</p>
+<p>Rudenstine then served as executive vice president of the Mellon Foundation for four years before being chosen for the Harvard presidency in 1991.</p>
+<p>At Harvard, as part of an overall effort to achieve greater coordination among the University’s schools and faculties, Rudenstine set in motion an intensive process of University-wide academic planning intended to identify some of Harvard’s main intellectual and programmatic priorities.</p>
+<p>In 1999, he announced the launch of a major new venture in interdisciplinary learning, the Radcliffe Institute for Advanced Study, created through the merger of Radcliffe College with Harvard.</p>
+<p>During his tenure Rudenstine worked to sustain and build federal support for university-based research. Under his leadership, Harvard’s federally sponsored research grew to $320 million in 2000, up from $200 million in 1991.</p>
+<p>Rudenstine also stressed the University’s commitment to excellence in undergraduate education, the importance of keeping Harvard’s doors open to students from across the economic spectrum, the task of adapting the research university to an era of rapid information growth, and the challenge of living together in a diverse community committed to freedom of expression.</p>
+<p>Rudenstine led Harvard’s first University-wide funding campaign in modern times and what was then the largest higher education campaign in history. The efforts surpassed the goal of $2.1 billion to raise more than $2.6 billion from about 175,000 alumni and friends of Harvard.</p>
+<p>That success allowed the University to take meaningful steps toward its goals, such as increasing both undergraduate and graduate student financial aid, embarking on new construction projects to provide cutting-edge facilities for study and research, and endowing new chairs and professorships to ensure that Harvard would continue to attract top faculty.</p>
+<p>Since stepping down from the presidency, Rudenstine has been involved in a digital arts venture, ArtSTOR, and taught courses at Princeton.</p>
+<p>Rudenstine is married to art historian Angelica Zander Rudenstine.</p>
+<p>The Neil L. and Angelica Zander Rudenstine Gallery at the W.E.B. Du Bois Institute for African and African American Research is the only exhibition space at Harvard devoted to works by and about people of African descent.</p>
+<ul>
+<li><a href="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/04/Rudenstine_Pointing_our_Thoughts.pdf">Pointing Our Thoughts: Reflections on Harvard and Higher Education, 1991-2001 (PDF)</a></li>
+<li><a href="https://news.harvard.edu/gazette/story/2001/05/rudenstines-journey-to-harvard-began-at-14/">Rudenstine’s journey to Harvard began at 14 (Harvard Gazette)</a></li>
+<li><a href="https://news.harvard.edu/gazette/story/2006/05/rudenstine-portrait-unveiled/">Rudenstine portrait unveiled: Luminaries praise former president for generosity, passion (Harvard Gazette)</a></li>
+<li><a href="http://harvardmagazine.com/2006/07/presidential-portrait.html">Presidential Portrait (Harvard Magazine)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/rudenstine.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Rudenstine smiling" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8452c" id="accordion-header-622eea6a8452d" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Derek Bok					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8452c" aria-labelledby="accordion-header-622eea6a8452d" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Terms of office: 1971-1991 and 2006-2007</strong></p>
+<p>Derek Bok served as interim president of Harvard University from July 1, 2006, to June 30, 2007. Bok was the only person in the modern era to twice serve as Harvard president. As interim president, Bok devoted himself to bringing to a successful conclusion an ongoing review of undergraduate education, planning for the development of University land in Allston, and identifying organizational changes necessary to promote interdisciplinary research, such as reform of the academic calendar. Bok’s annual report outlines the work that went into advancing these goals.</p>
+<p>Bok, the 300th Anniversary University Research Professor and faculty chair of the Hauser Center for Nonprofit Organizations, previously served as the 25th president of Harvard from 1971 to 1991. Prior to being named president, Bok served as dean of Harvard Law School from 1968 to 1971.</p>
+<p>During his 20-year tenure as president, Bok restructured the University’s central administration and oversaw creation of a Core Curriculum that became the framework for undergraduate education at Harvard. He advocated increasing the number of female undergraduates, supporting the 1975 adoption of equal-access and gender-blind financial-aid policies in admissions.</p>
+<p>Bok also focused on expanding the Kennedy School of Government faculty and programs. He encouraged the establishment of academic programs and research centers addressing issues such as AIDS, energy and the environment, poverty, professional ethics, smoking, and international security.</p>
+<p>As president, he was a vocal advocate for student participation in public-service programs. By the end of his presidency, more than 60 percent of Harvard undergraduates were engaged in some form of public service. Envisioning the important role Harvard could play internationally, Bok also signed innovative debt-for-scholarship agreements with the governments of Ecuador and Mexico during his tenure.</p>
+<p>In 1975, Bok established the Office for the Arts, whose programs to this day serve more than 3,000 undergraduates annually. He established the Danforth Center for Teaching and Learning to explore innovations in undergraduate teaching, which was renamed the Bok Center in 1991.</p>
+<p>He has written six books on higher education: Our Underachieving Colleges (2005), Universities in the Marketplace (2003), The Shape of the River (1998, with William G. Bowen), Universities and the Future of America (1990), Higher Learning (1986), and Beyond the Ivory Tower (1982).</p>
+<p>In addition to studying the state of higher education, Bok is also the author of two books examining the adequacy of the U.S. government in coping with the nation’s domestic problems: The State of the Nation (1997) and The Trouble with Government (2001).</p>
+<p>He serves as chair of the board of the Spencer Foundation.</p>
+<p>Bok has an A.B. from Stanford University, a J.D. from Harvard Law School, and an A.M. in economics from George Washington University. Following law school, he was named a Fulbright Scholar and studied at the University of Paris’s Institute of Political Science.</p>
+<p>Bok is married to Sissela Myrdal Bok, a writer and philosopher who is senior visiting fellow at the Harvard Center for Population and Development Studies. They have two daughters and one son.</p>
+<ul>
+<li><a href="https://www.harvard.edu/president/category/news-speeches-bok/">News and Speeches by President Bok</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/bok.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Bok smiling" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8452e" id="accordion-header-622eea6a8452f" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Nathan Marsh Pusey					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8452e" aria-labelledby="accordion-header-622eea6a8452f" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1953-1971</strong></p>
+<p>Arriving in Massachusetts Hall after presiding over Lawrence College, Nathan Marsh Pusey (1907-2001) was the second Harvard president to bring previous presidential experience with him. For Pusey, that meant tangles with the infamous Sen. Joseph R. McCarthy (R-Wis.).</p>
+<p>The new president had hardly been confirmed by the Board of Overseers in June when McCarthy took aim at him in a published letter. “When McCarthy’s remarks about me are translated, they mean only I didn’t vote for him,” Pusey wryly replied. The incident made national news, the vast majority of it against McCarthy. In November, after Pusey had spent little more than two months in office, McCarthy attacked Harvard. Pusey parried with the unflappable style that had earlier served so well.</p>
+<p>Pusey’s firmness of principle reflected his deeply religious nature, and The Memorial Church and the Divinity School benefited from his continuing efforts to enhance Harvard’s spiritual fortunes. Nonetheless, Pusey was also one of Harvard’s great builders, resuming a scale of new construction to rival that of the Lowell administration.</p>
+<p>In 1957, Pusey announced the start of A Program for Harvard College, an $82.5 million effort that actually raised $20 million more and resulted in three additions to the undergraduate House system: Quincy House (1959), Leverett Towers (1960), and Mather House (1970). During the 1960s, the Program for Harvard Medicine raised $58 million. In April 1965, the Harvard endowment exceeded $1 billion for the first time. By 1967, Pusey found himself making the case for yet another major fundraising effort seeking some $160 million for various needs around the University.</p>
+<p>Other major structures of the Pusey era include the University Herbaria building (ca. 1954), the Loeb Music Library (1956), Conant Chemistry Laboratory (1959), the Loeb Drama Center (1960), the Center for the Study of World Religions (1960), the Carpenter Center for the Visual Arts (1963), Peabody Terrace (1964), William James Hall (1965), Larsen Hall (1965), the Countway Library of Medicine (1965), and Holyoke Center (1966). A 1960 bequest from art connoisseur Bernard Berenson, Class of 1887, allowed Villa I Tatti (Berenson’s great and storied estate near Florence, Italy) to become a special Harvard treasure as the home of the Center for Italian Renaissance Studies. Fundraising for structures such as Pusey Library and the undergraduate Science Center began toward the end of Pusey’s term.</p>
+<p>Pusey became one of Harvard’s most widely traveled chief executives, chalking up official trips to Europe (England, France, Scotland, Switzerland; 1955), East Asia (Hong Kong, India, Japan, Korea, the Philippines, Taiwan; 1961), and Australia and New Zealand (1968).</p>
+<p>Toward the end of his term, Pusey found himself once again beset by controversy – this time, from within. Fueled by burning issues such as the Vietnam War, civil rights, economic justice, and the women’s movement, student activism escalated to the boiling point by the late 1960s at Harvard and elsewhere. On April 9, 1969, radical students ejected administrators from University Hall and occupied the building to protest Harvard’s ROTC program and University expansion into Cambridge and Boston neighborhoods. Early the next morning, many protesters sustained injuries requiring medical treatment after Pusey called in outside police to remove the demonstrators. In response, other students voted to strike and boycott classes. The University almost closed early. The gateway had just opened onto the greatest period of sustained upheaval in Harvard history.</p>
+<p>Pusey defended his actions until the end of his long life, but the events of April 1969 undoubtedly shortened his presidency. In February 1970, he made a surprise announcement: he was retiring two years early. Pusey left Harvard in June 1971 to become the second president of New York’s Andrew W. Mellon Foundation.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4065">Pusey papers at Harvard</a></li>
+<li><a href="http://harvardmagazine.com/2002/01/nathan-marsh-pusey.html">Nathan Marsh Pusey (Harvard Magazine)</a></li>
+<li><a href="http://lux.lawrence.edu/presidentialportraits/7/">Lawrence University: Presidential Portraits: Nathan Pusey, President, 1944-1953</a></li>
+<li><a href="http://www.thecrimson.com/article/2003/6/2/the-post-war-president-on-the-day/">The Post-War President (Harvard Crimson)</a></li>
+<li><a href="http://www.thecrimson.com/article/1976/2/21/at-last-the-library-opens-pwhen/">At Last the Library Opens</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/pusey.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Black and white photo of president Pusey" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a84530" id="accordion-header-622eea6a84531" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						James Bryant Conant					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a84530" aria-labelledby="accordion-header-622eea6a84531" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1933-1953</strong></p>
+<p>Mindful of the upcoming Tercentenary Celebration in 1936, James Bryant Conant (1893-1978) opted for a minimal installation ceremony in the Faculty Room of University Hall on Oct. 9, 1933. There was little else minimal about him. Conant operated on a grand scale like Lowell’s but saw his proper task as populating Lowell’s vastly expanded physical plant with talented students and scholars.</p>
+<p>Toward this end, at his very first Harvard Corporation meeting (Sept. 1933), Conant proposed an effort later known as the 300th Anniversary Fund. Within two years, it supported the creation of (1) the special academic position of University Professor, which gives exceptional scholars the run of the University to foster cross-disciplinary research on the frontiers of knowledge, and (2) National Scholarships for highly promising students, regardless of financial means. By seeking out and assisting students who might not otherwise attend college, the National Scholarships enhanced undergraduate diversity.</p>
+<p>Through issues surrounding the selection of National Scholarship recipients, Conant became deeply involved in the expanded use of the Scholastic Aptitude Test developed by Princeton’s Carl Campbell Brigham. Conant eventually headed the commission whose recommendations led to the formation of the Educational Testing Service in 1947.</p>
+<p>Immersion in such major public questions typified the man. Conant testified before U.S. Senate committees (e.g., on federal aid to education, creation of the National Science Foundation, and the Lend-Lease Bill). He conferred with U.S. President Franklin D. Roosevelt and served as a defense-research emissary to England. In July 1944, Conant offered the facilities of Harvard’s Dumbarton Oaks Research Library and Collection (Washington, D.C.) for a U.S. State Department conference on postwar security. The resulting Dumbarton Oaks Proposals laid the foundations of the United Nations Charter.</p>
+<p>Conant’s most remarkable governmental role began in 1941 with an appointment to chair the National Defense Research Committee and, later, to serve as special deputy to Vannevar Bush, head of the Office of Scientific Research and Development. As a result, Conant was among the first to receive word of Enrico Fermi’s success in generating the world’s first controlled nuclear chain reaction – a critical step toward the atomic bomb. In July 1945 at Alamogordo, N.M., Conant witnessed the first atomic-bomb test. Shortly after World War II, he traveled to Moscow for talks (involving Great Britain, the U.S., and the Soviet Union) on international control of the bomb.</p>
+<p>In the midst of the war, Conant and Provost Paul H. Buck launched a review of the undergraduate curriculum that produced the General Education Program, a reform that shaped Harvard undergraduate studies for more than three decades to come. Published in 1945 as “General Education in a Free Society” (a.k.a. the “Red Book”), the program profoundly influenced high school and college curricula nationwide.</p>
+<p>Wartime brought another major change to Harvard classrooms: in summer 1943, Radcliffe women (previously taught in separate, duplicated classes) for the first time attended classes with Harvard men. The “temporary” measure soon became permanent. In 1949, Lamont Library opened as the nation’s first library expressly designed for undergraduates. Seven years earlier, the Houghton Library (for rare books and manuscripts) had opened as the world’s first library with built-in climate control.</p>
+<p>The Conant years also saw the birth of major new Harvard subdivisions such as the Graduate School of Public Administration (1935; now the John F. Kennedy School of Government), the Graduate School of Design (1936), and the Nieman Foundation for Journalism (1937). In 1939, the President’s Office moved from University Hall to its current location in Massachusetts Hall.</p>
+<p>National duty tapped on Conant’s shoulder once again in 1953: President-elect Dwight D. Eisenhower asked Conant to serve as the U.S. high commissioner for Germany, a job that required him to leave Harvard. On Sept. 1, Conant became president emeritus.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4058">Conant papers at Harvard</a></li>
+<li><a href="https://www.chemistry.msu.edu/faculty-research/portraits/james-bryant-conant/">James Bryant Conant: 1893-1978 (Michigan State University)</a></li>
+<li><a href="http://www.pbs.org/wgbh/pages/frontline/shows/sats/where/three.html">Americans Instrumental in Establishing Standardized Tests (PBS)</a></li>
+<li><a href="http://www.thecrimson.com/article/2003/6/2/the-post-war-president-on-the-day/">The Post-War President (Harvard Crimson)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/conant.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Conant" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a84532" id="accordion-header-622eea6a84533" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						A(bbott) Lawrence Lowell					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a84532" aria-labelledby="accordion-header-622eea6a84533" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1909-1933</strong></p>
+<p>For sheer grandeur, no other Harvard presidential installation approaches that of A. Lawrence Lowell (1856-1943). The two days of festivities (Oct. 6-7, 1909) drew some 13,000 spectators, and Harvard conferred 30 honorary degrees.</p>
+<p>Born to the prominent Boston family that produced astronomer Percival Lowell (his brother) and poet Amy Lowell (his sister), A. Lawrence Lowell was a man of high scholarship, high standards, and aristocratic bearing who believed in education for all who had the heart and mind to pursue it. Thus, he wasted no time in establishing the Harvard Extension School (1909) as an open-enrollment evening program for the Greater Boston community.</p>
+<p>Lowell inherited a College afflicted by a divisive, clubby social outlook that he detested. His inaugural address made clear his desire to restore the “collegiate way of living” that had inspired Harvard’s founding. His correctives shape undergraduate life to this day.</p>
+<p>By requiring freshmen to live in Harvard dormitories, Lowell dealt a death blow to the expensive private “Gold Coast” dorms that had sprung up along Mount Auburn Street since the mid-1870s and limited the commingling of social classes. Between 1914 and 1926, four freshman dormitories rose along the Charles. In 1928 came an unexpected gift (eventually totaling $13 million) from Yale alumnus Edward S. Harkness that allowed Lowell to realize one of his deepest dreams: the creation of residential Houses (some subsuming the four recent freshman halls) to replicate the diversity of the larger College, with sophomores, juniors, and seniors living, dining, studying, and socializing with affiliated tutors and faculty. By 1930 and 1931, the first seven undergraduate Houses (Adams, Dunster, Eliot, Kirkland, Leverett, Lowell, and Winthrop) were opening their doors, and the House Plan – one of Harvard’s most successful and distinctive features – was under way. In 1931, the College also began housing freshmen in Yard dormitories.</p>
+<p>On every hand, Harvard facilities expanded enormously with the completion of the Gibbs Chemistry Laboratory (1913), the Music Building (1914), Widener Library (1914, opened 1915), the Germanic Museum (now the Busch-Reisinger Museum in Otto Hall; 1921), Lehman Hall (1924), Straus Hall (1926), the Business School’s Georgian-style complex (1927), the Fogg Art Museum (1927), Mallinckrodt Laboratory (1928), the Indoor Athletic Building (1930; now the Malkin Athletic Center), Dillon Field House (1931), Wigglesworth Hall (1931), and The Memorial Church (1932). In 1912, Lowell funded the building of a new president’s House at 17 Quincy St. (now Loeb House). Langdell Hall, partly finished in 1907 to house the Law School Library, was finally completed in 1929.</p>
+<p>Lowell was equally concerned with undergraduate education. His term brought the first general examinations, fields of concentration (elsewhere known as “majors”), distribution requirements for subjects outside the concentration, and tutorials (individual or small-group instruction with a tutor). Beyond the College, the University gained new schools in Education (1920) and Public Health (1922).</p>
+<p>In 1933, Lowell’s last big dream materialized with the founding of the Society of Fellows, which now allows up to 30 exceptionally promising young scholars (Junior Fellows) to devote three years to full-time scholarship while enjoying regular contact with Senior Fellows in diverse fields.</p>
+<p>During World War I when anti-German sentiment ran high, Lowell fiercely defended academic freedom, resisting pressure to fire Psychology Professor Hugo Münsterberg for speaking well of his native Germany. In 1927, Lowell chaired an investigation of the controversial execution of anarchists Nicola Sacco and Bartolomeo Vanzetti. By Lowell’s instructions, investigation documents remained sealed until 1977.</p>
+<ul>
+<li><a href="http://www.thecrimson.com/article/2001/11/1/harvard-explained-all-the-seals-were/">Harvard Explained: What are the meaning of the house and graduate school shields? (Harvard Crimson)</a></li>
+<li><a href="http://www.thecrimson.com/article/2005/11/3/writing-the-wrong-a-lawrence-lowell/">Writing the Wrong: A. Lawrence Lowell (Harvard Crimson)</a></li>
+<li><a href="http://www.thecrimson.com/article/2006/5/18/constructing-the-period-much-like-waffles/">Constructing the Period: Reading period is a Harvard institution — but it wasn’t always that way (Harvard Crimson)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/lowell.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Lowell" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+	</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<section class=" c-block b-media-text c-block--layout-right c-block--width-grid t-theme--light">
+	<div class="b-media-text__container l-container">
+
+		<div class="b-media-text__media an-will-animate an-was-on-viewport">
+							<div class="b-media-text__img-wrap">
+					
+<figure class="c-image">
+
+	
+		<img class="c-image__image lazyloaded" alt="Two people walking past Kirkland house." data-expand="200" data-parent-fit="width" data-src="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-768x576.jpg" srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-1536x1152.jpg 1536w 1152h" data-sizes="(min-width: 1260px) 1260px, 100vw" data-srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/103119_Features_KS_015-1536x1152.jpg 1536w 1152h" src="./History of the Presidency - Harvard University_files/103119_Features_KS_015-768x576.jpg" sizes="(min-width: 1260px) 1260px, 100vw">
+	
+	
+</figure>
+
+				</div>
+					</div>
+
+		<div class="b-media-text__content an-will-animate an-was-on-viewport">
+			
+<div class="c-block__content-block c-block__header b-media-text__content-container c-content-block c-content-block--layout-left">
+
+	
+<p class="c-block__leadin b-media-text__leadin c-content-block__leadin">
+	What’s in a name?</p>
+
+	
+	
+<h2 class="c-block__title b-media-text__title h3 c-content-block__title">
+	Kirkland House</h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-media-text__text t-sink s-sink c-content-block__content">
+<p>Named for John Thornton Kirkland, who served as President of Harvard from 1810 to 1828, an important period of growth and expansion for the College.</p>
+</div>
+			</div>
+
+</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<p class="has-text-align-center"><a href="https://www.harvard.edu/president/history/#">Back to top</a></p>
+
+
+
+<section class=" c-block b-accordion">
+	<div class="b-accordion__container l-container">
+
+		
+<header class="c-block__content-block c-block__header b-accordion__header c-content-block c-content-block--layout-left">
+
+	
+	
+	
+<h2 class="c-block__title b-accordion__title h3 c-content-block__title">
+	 </h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-accordion__description t-sink s-sink c-content-block__content">
+<h3>1800s<a name="1800s"></a></h3>
+</div>
+			</div>
+
+</header>
+
+		<div class="b-accordion__content">
+			<div class="c-accordion" id="accordion-group-622eea6a887cf" aria-multiselectable="true" data-js="c-accordion">
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887e9" id="accordion-header-622eea6a887ea" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Charles William Eliot					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887e9" aria-labelledby="accordion-header-622eea6a887ea" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1869-1909</strong></p>
+<p>The presidency of Charles William Eliot (1834-1926) played out on an epic scale like no other, from his record-setting 40 years in office to his transformation of Harvard into a modern research university to his far-reaching impact on U.S. higher education.</p>
+<p>In a 105-minute inaugural address (Oct. 19, 1869), Eliot memorably enunciated his grand vision of what Harvard should be. Vigor and longevity made most of it come true. As historian Samuel Eliot Morison explains, Eliot simply “wore down and outlived all his opponents.”</p>
+<p>Harvard changed in so many dimensions during the Eliot era that space permits only a sampler of major new arrivals:</p>
+<ul>
+<li>Harvard Summer School (1871)</li>
+<li>Graduate Department (1872; revamped as the Graduate School, 1890; renamed the Graduate School of Arts and Sciences, 1905)</li>
+<li>Arnold Arboretum (1872)</li>
+<li>Radcliffe College (chartered as the Society for the Collegiate Instruction of Women [a.k.a. “Harvard Annex”], 1879; chartered as Radcliffe College, 1894)</li>
+<li>Faculty of Arts and Sciences (1890)</li>
+<li>School of Landscape Architecture (ca. 1901; forerunner of the Graduate School of Design)</li>
+<li>Harvard Forest (Petersham, Mass.; 1907)</li>
+<li>School of Business Administration (1908)</li>
+</ul>
+<p>At the Medical School in Boston, the curriculum expanded to four years in 1892. Nine years later, a bachelor’s degree became an admissions prerequisite. And in 1906, the new Longwood Avenue quadrangle opened as the largest and most comprehensive medical-school complex in the U.S.</p>
+<p>For undergraduates, the Eliot years saw the end of many longstanding requirements such as compulsory chapel (1886), the undergraduate entrance requirement in Greek (1887), and the much-hated “Scale of Merit” (a nitpicking Quincy-era grading system whose last traces disappeared in 1886-87, with the introduction of letter grades).</p>
+<p>One of Eliot’s most influential reforms was the development of a system of “spontaneous diversity of choice” in which undergraduates selected most of their own courses. Choice, in turn, stimulated an open-ended curriculum. This elective system constituted a radical break with the time-honored academic practice of specifying a student’s courses according to the year of college. The Harvard experiment soon spread nationwide and changed what it meant to be “educated.” By 1894, Eliot himself had concluded that the new system was “the most generally useful piece of work which this university has ever executed.”</p>
+<p>Architecturally, the grandest legacies of the Eliot era are Memorial Hall (1870-78), Sever Hall (1880), Austin Hall (1883), Harvard Stadium (1903), and the Medical School Quadrangle (1906). Matthews (1872), Thayer (1870), and Weld (1872) halls also rose in the Yard; and the Yard’s great gate-and-fence system began to take shape with the completion of the Johnston Gate (1890). Phillips Brooks House opened its doors in 1900 as the home of undergraduate community-service activities.</p>
+<p>Having weathered many a storm, Eliot began reaping a harvest of praise around 1894. “One after the other, the greater universities of the country followed the reforms that Harvard had adopted; it was clear by the middle nineties that the Harvard of Eliot [. . .] had set new standards for higher education in America,” writes Morison. “By the turn of the century he was one of the leading public figures of the country; his opinion and support were sought on every variety of public question.”</p>
+<p>Few marking Eliot’s silver anniversary could have dreamt that he would serve for another 15 years, retiring as Harvard’s first president emeritus on May 19, the very day of his final confirmation 40 years earlier.</p>
+<ul>
+<li><a href="http://www.harvardmagazine.com/2001/11/eliots-elect-the-harvard.html">Eliot’s Elect: The Harvard Classics, 1910 (Harvard Magazine)</a></li>
+<li><a href="http://www.higher-ed.org/resources/Charles_Eliot.htm">Charles William Eliot, The Elective System, 1885 (Higher Education Resource Hub</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/eliot.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Eliot against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887eb" id="accordion-header-622eea6a887ec" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Thomas Hill					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887eb" aria-labelledby="accordion-header-622eea6a887ec" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1862-1868</strong></p>
+<p>With three years behind him as president of Antioch College, Thomas Hill (1818-1891) was the first Harvard president to bring experience as an academic chief executive to the job. For Hill’s formal installation on March 4, 1863, University Organist and Choirmaster John Knowles Paine composed a new anthem,&nbsp;<em>Domine salvum fac Praesidem nostrum (God Save Our President)</em>.</p>
+<p>Hill raised admissions standards and took steps toward an elective course system. In 1863, Harvard established public University Lectures by major scholars from Harvard and elsewhere that helped open the way for the Graduate School of Arts and Sciences, and the University Extension program. When faculty positions opened up, Hill scoured the nation for candidates.</p>
+<p>Milestones of the period included the first alumni election of Harvard Overseers (Commencement 1866), the beginnings of the Peabody Museum of Archaeology and Ethnology (the nation’s first anthropology museum; 1866), and the founding of the Dental School (the nation’s first university dental school; 1867). On July 19, 1865, the governor of Massachusetts presided over the Board of Overseers for the last time, in keeping with a recent legislative act that severed Harvard’s ties to state government.</p>
+<p>One student at this time was Robert Todd Lincoln, Class of 1864, son of Abraham and Mary Lincoln. Hoping for parental reinforcement, Hill wrote to the White House on Dec. 9, 1862, to inform the president that the faculty had just approved public admonishment of his son for smoking in Harvard Square after he had privately been warned not to do so.</p>
+<p>While Hill never fully realized his vision of Harvard as “an American University in the highest and best sense,” historian Samuel Eliot Morison credits him with moving things in the right direction. Personal factors prevented him from pushing them farther.</p>
+<p>To Morison, Hill seemed “too modest, easily balked by difficulty or opposition. With the air and appearance of a kindly, eccentric country minister, he failed lamentably to match the traditional picture of a Harvard president, and shocked Cambridge folk by such lapses from clerical dignity as stripping off his coat to plant ivy against Gore Hall [the library building, 1841-1913]. [. . .]”</p>
+<p>On Sept. 30, 1868, Hill resigned, weighed down by “personal bereavements” (Morison). In 1873, he became minister of a church in Portland, Maine, where he happily spent his final years. “Late in life,” notes Morison, “President Eliot declared that he had always been thankful for Hill as a predecessor, since it was he who set the University on the path that she was destined to follow.”</p>
+<ul>
+<li><a href="http://www.thecrimson.com/article/2006/2/23/past-presidential-searches-give-clues-chiefs/">Past Presidential Searches Give Clues; Chiefs of Other Schools and Deans at Harvard Lead the Pack of Prospects (Harvard Crimson)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/hill.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Hill against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887ed" id="accordion-header-622eea6a887ee" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Cornelius Conway Felton					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887ed" aria-labelledby="accordion-header-622eea6a887ee" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1860-1862 (died in office on Feb. 26)</strong></p>
+<p>Two years and ten days after his election to the presidency, Cornelius Conway Felton lay dead. His determination to do the job was too much for a constitution already weakened by a heart condition. (Ironically, he had once presided over a Boston physical-education society.)</p>
+<p>Felton (1807-1862) was a noted scholar who also found time to share his talents with the Massachusetts Board of Education and the Smithsonian Institution. Despite its brevity, the Felton presidency produced at least one milestone. At Commencement 1860, Felton conferred degrees upon the first Harvard Class of more than 100 graduates.</p>
+<p>More ominously, as civil war loomed on the national horizon, most Southern students left Harvard during the winter break of 1860-61, never to return.</p>
+<ul>
+<li><a href="http://id.lib.harvard.edu/via/olvwork418135/catalog">Photograph of five Harvard presidents</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/felton.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Felton against a crimson background.." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887ef" id="accordion-header-622eea6a887f0" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						James Walker					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887ef" aria-labelledby="accordion-header-622eea6a887f0" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1853-1860</strong></p>
+<p>In James Walker (1794-1874), Harvard gained a president whose great words fell short of commensurate deeds. “President Walker’s inaugural address was one of the most solid, sensible, and prophetic orations ever delivered on such an occasion,” notes Harvard historian Samuel Eliot Morison. “Unfortunately, Dr. Walker was one of those wise persons, not uncommon in academic circles, who cannot get things done. He was too tired or indifferent to advance his own theories effectively.”</p>
+<p>Even so, Harvard continued to grow in important new directions. In 1858, two-story Boylston Hall rose to serve the physical sciences (the third story was added in 1871), and the first Appleton Chapel (demolished in 1931) was completed. In the same year, Harvard received $50,000 from Francis Calley Gray that established a Museum of Comparative Zoology. In 1859, Abbott Lawrence made his second $50,000 donation to the Lawrence Scientific School. The same year found Harvard’s new Gymnasium (on the site of today’s Cambridge Fire Department Headquarters) under the supervision of professional boxing teacher A. Molyneaux Hewlett, the first Black person to serve on the Harvard staff, who remained until his death in 1871.</p>
+<p>Perusing the 1856-57 catalog, students would find Harvard’s first music course (“Vocal Music”). March 1857 brought less harmonious tidings, when the faculty approved the introduction of written final examinations and, of course, bluebooks. With firm faith in old-school classroom recitations as the true measure of mastery, Greek Professor Evangelinus Apostolides Sophocles was soon burning bluebooks he had never read.</p>
+<p>Troubled by arthritis, Walker submitted his resignation on Oct. 29, 1859, but remained in office until Jan. 26, 1860, a few weeks before the election of his successor.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/3994">Walker papers at Harvard</a></li>
+<li><a href="http://www.americanunitarian.org/classicwritings.htm">Classical American Unitarian Christian Sermons and Writings</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/walker.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Walker against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887f1" id="accordion-header-622eea6a887f2" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Jared Sparks					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887f1" aria-labelledby="accordion-header-622eea6a887f2" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1849-1853</strong></p>
+<p>Jared Sparks (1789-1866) stepped up to the presidency as soon as Edward Everett stepped down on Feb. 1, 1849. Students could not have been more delighted: Sparks had found favor as the first McLean Professor of Ancient and Modern History (1838). But no second golden age was at hand to rival that of President Kirkland.</p>
+<p>Even after transferring many onerous tasks to a regent, Sparks did not enjoy his presidential duties. They never left him time enough for historical research. By Oct. 30, 1852, unstable health prompted Sparks to submit a letter of resignation. He agreed to remain until Feb. 10, 1853, when James Walker succeeded him.</p>
+<p>The Sparks years, however brief, had their share of surprises. Sparks’s easygoing ways and “distinguished manners” (Samuel Eliot Morison) inspired more students from the South to come to Harvard. At one point, Southerners made up almost a third of the student body.</p>
+<p>Over at the Medical School (long by then resettled in Boston), the most famous murder in Harvard history took place on Nov. 23, 1849, when John White Webster killed faculty colleague George Parkman in a dispute over a loan for which Webster provided subsequently compromised collateral. Webster was hanged for the crime on Aug. 30, 1850.</p>
+<p>Shortly after taking office, Sparks received a letter from Sarah Pellet, a young woman who wondered whether she might be admitted to the College. On April 25, 1849, Sparks responded, indicating the practical difficulties of having a solitary woman among so many men. But his final remarks held out brighter hopes: “It may be a misfortune, that an enlightened public opinion has not led to the establishment of Colleges of the higher order for the education of females, and the time may come when their claims will be more justly valued, and when a wider intelligence and a more liberal spirit will provide for this deficiency.”</p>
+<p>Sparks’ name is now most often invoked because of a single Harvard structure. Instead of moving to Wadsworth House in the Yard, he lived in his own dwelling at 48 Quincy St. The building was moved to 21 Kirkland St. in 1968. Today, Jared Sparks House serves as the residence of the Pusey Minister in the Memorial Church. In 1849, Sparks also moved the President’s Office from Wadsworth House to University Hall, where it remained until 1939.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/24/resources/3946">Sparks papers at Harvard</a></li>
+<li><a href="http://www.nps.gov/morr/historyculture/jared-sparks.htm">Sparks biography (Morristown National Historical Park)</a></li>
+<li><a href="http://www.nytimes.com/2006/02/26/opinion/26pearl.html?ex=1298610000&amp;en=46ea1cd76629b02d&amp;ei=5090&amp;partner=rssuserland&amp;emc=rss">How the Liberal Arts Got That Way (New York Times)</a></li>
+<li><a href="http://www.thecrimson.com/article/2005/5/16/bookends-around-the-world-in-286/">Around the World In 286 Pages: A Dartmouth College drop-out’s ill-fated attempt to walk across the globe (Harvard Crimson)</a></li>
+<li><a href="http://harvardmagazine.com/2004/01/advice-to-america-from-a.html">Advice to America from a French Friend (Harvard Magazine)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/sparks.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Sparks against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887f3" id="accordion-header-622eea6a887f4" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Edward Everett					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887f3" aria-labelledby="accordion-header-622eea6a887f4" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p class="storydateplace"><strong>Term of office: 1846-1849</strong></p>
+<p>Edward Everett’s arrival opened a 23-year span of five presidencies and one acting presidency in which death and resignation left no one in office much longer than seven years.</p>
+<p>With his many years of experience in high-level state, national, and international affairs, Everett (1794-1865) did not relish the prospect of running a university. (Perhaps his experience as a tutor, Overseer, and the first Eliot Professor of Greek Literature factored in as well.) By shrewdly appealing to Everett’s reputation as a prominent public speaker (who could keep his oratorical skills in tune by lecturing on international law and diplomacy at the Law School), U.S. Sen. Daniel Webster (Whig-Mass.) persuaded Everett to take the job. He lived to regret it.</p>
+<p>Students rained down a storm of clever pranks that swamped his patience – and Everett was not one to suffer in silence. “When I was asked to come to this university, I supposed I was to be at the head of the largest and most famous institution of learning in America,” he declared one day at Morning Prayers. “I have been disappointed. I find myself the sub-master of an&nbsp;<em>ill-disciplined school</em>.”</p>
+<p>At Everett’s behest, the institution officially became the “University at Cambridge,” with nary a breath of “Harvard.” Everett also lost no time in getting the Harvard Corporation to abolish the recently adopted VERITAS motto and reinstate CHRISTO ET ECCLESIAE. (Alumni raged over this until 1885, when VERITAS prevailed.) When the City of Cambridge incorporated in 1846, Everett designed the municipal seal, featuring the image of Gore Hall (1841-1913), home of the College Library and a local landmark.</p>
+<p>Despite its brevity, Everett’s term brought a major research component to the University: the Lawrence Scientific School, funded in 1847 by merchant-manufacturer Abbott Lawrence and opened in 1850. The School awarded its last degrees in 1910. The building itself survived until May 7, 1970, when fire claimed it on a site now occupied by the Science Center.</p>
+<p>Everett began talking about resigning in 1847. In the following year, he wrote a letter of resignation, which was accepted on Feb. 1, 1849. Everett departed as the ninth and final President to live in Wadsworth House. In 1852, he became U.S. secretary of state in the Fillmore administration. He later ran unsuccessfully for the U.S. vice presidency.</p>
+<p>At the dedication of Gettysburg National Cemetery on Nov. 19, 1863, Everett delivered a two-hour principal address, remembered now, if at all, as the upbeat to a two-minute speech by the 16th president of the United States.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4123">Everett papers at Harvard</a></li>
+<li><a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000264">Biographical Directory of the United States Congress</a></li>
+<li><a href="http://www.nytimes.com/2006/02/26/opinion/26pearl.html?ex=1298610000&amp;en=46ea1cd76629b02d&amp;ei=5090&amp;partner=rssuserland&amp;emc=rss">How the Liberal Arts Got That Way (New York Times)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/everett.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Everett against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887f5" id="accordion-header-622eea6a887f6" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Josiah Quincy					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887f5" aria-labelledby="accordion-header-622eea6a887f6" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1829-1845</strong></p>
+<p>On June 2, 1829, the University grandly installed Josiah Quincy (1772-1864) as its 15th president. The dazzling Commencement Day ceremony proved a false harbinger. For if John Thornton Kirkland was Harvard’s best-loved chief executive, Josiah Quincy soon plummeted to the opposite pole.</p>
+<p>According to his son, Quincy had hoped to create a Harvard that produced “high-minded, high-principled, well-taught, well-conducted, well-bred gentlemen.” Unfortunately, Quincy never got his finger on the inner pulse of student life. Within five years, his rough touch tripped off one of the most destructive and divisive student disorders in Harvard history.</p>
+<p>During the winter of 1833-34, an argument between a student and a tutor (possibly a professor) prompted disciplinary action against several students. Classmates protested in word and deed, breaking the tutor’s windows and furniture, and ringing the College bell at night. By May 29, the College felt compelled to send the entire sophomore Class home.</p>
+<p>Having found no one to charge for some $300 in window damage, Quincy called on the Middlesex County grand jury to investigate. The interjection of outside authority proved a fatal violation of ancient academic protocol. The ensuing student riots produced mounds of broken glass and furniture, bomb damage in the chapel, a black flag fluttering over Holworthy Hall, and an effigy of Quincy dangling from the Rebellion Tree (so designated by student rioters of 1818). The grand-jury investigation yielded no actionable results. Undergraduate enrollment nosedived, as many existing students left and prospective students looked elsewhere.</p>
+<p>To make matters worse, Quincy took the grading system (introduced by the reforms of 1825) and transformed it into a rigid and much-hated “Scale of Merit,” which consisted of an eight-point spread applied to every recitation in class, with various demerits for behavioral infractions. Quincy himself kept score.</p>
+<p>On the positive side, Quincy championed academic freedom and produced a valuable “History of Harvard University” (1840). While researching this two-volume work in the Harvard Archives, Quincy discovered an original sketch of the VERITAS seal in College record books from the winter of 1643-44. For reasons unknown, the motto had never before been used. Meanwhile, Harvard had adopted two other mottoes. Atop a huge tent in the Yard on Sept. 8, 1836, a white banner publicly displayed the VERITAS seal for the first time during the Harvard Bicentennial (which also brought the first singing of “Fair Harvard”). The Harvard Corporation officially adopted the motto in 1843, setting off a four-decade tug of war between VERITAS (“Truth”) and the previous motto CHRISTO ET ECCLESIAE (“For Christ and Church”).</p>
+<p>With Quincy’s support, Harvard also established its first research division, the Astronomical Observatory, in 1839. Six years later, Quincy retired and returned to Boston.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4109">Quincy papers at Harvard</a></li>
+<li><a href="http://quincy.harvard.edu/">Quincy House</a></li>
+<li><a href="http://bioguide.congress.gov/scripts/biodisplay.pl?index=Q000015">Biographical Directory of the United States Congress</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/quincy.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="graphic of President Quincy against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887f7" id="accordion-header-622eea6a887f8" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						John Thornton Kirkland					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887f7" aria-labelledby="accordion-header-622eea6a887f8" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1810-1828</strong></p>
+<p>By all accounts, John Thornton Kirkland (1770-1840) was a remarkable man whose special touch conjured up a golden age for all who walked the Yard on his watch. He was the epitome of the gentleman scholar. For no other Harvard president have graduates penned so many affectionate tributes.</p>
+<p>Writing to President Eliot in 1871, historian-diplomat George Bancroft, Class of 1817, recalled that among all the various individuals who had crossed his path, he had encountered “few who were [Kirkland’s] equals, and no one who knew better than he how to deal with his fellow-men. [. . .] There was not in his nature a trace of anything that was mean or narrow. [. . .] He opened the ways through which [the University] has passed onward to its present eminent condition [. . .].”</p>
+<p>Leading by example came second nature to Kirkland. Even as a Harvard tutor (1792-1794), he adopted the then-unorthodox approach of treating students as gentlemen in hopes of inspiring them to become gentlemen. Kirkland left no significant literary legacy. Yet his own virtues – clarity and imagination of thought, charm in conversation, sensitivity to beautiful language, and more – inspired an outpouring of student writing.</p>
+<p>Despite Kirkland’s polished manner, the Yard (which Kirkland did much to enhance) was not entirely placid. One Sunday evening in 1818, a fierce food fight broke out in recently built University Hall (then partly used as commons for all four Classes). The disciplining of four sophomores prompted classmates (including Ralph Waldo Emerson) to swear allegiance against such “tyranny” under a Rebellion Tree.</p>
+<p>In spring 1823, the Great Rebellion – a much more complex student uprising – put institutional reform on the front burner. Accordingly, in 1825, the University adopted 13 chapters of Statutes and Laws that changed the curriculum, the classroom (including the introduction of sections and grades), and faculty structure. The new laws also required the president to deliver an annual report to the Board of Overseers. Also, the Kirkland years saw the establishment of two professional schools – Divinity (1816) and Law (1817) – as well as the completion of Divinity Hall (1826), Harvard’s first Cambridge building outside the Yard.</p>
+<p>Kirkland’s undoing began in 1826 when newly elected Corporation Fellow Nathaniel Bowditch launched a review that found Harvard a fiscal fiasco. The Corporation approved wide-ranging economies, including docked pay for the president and pay cuts for professors. In 1827, Kirkland suffered a paralytic stroke. On March 27, 1828, his fiscal nonchalance finally provoked a tongue-lashing from Bowditch. To everyone’s surprise and dismay, Kirkland resigned the next day. Heartbroken seniors penned him a farewell encomium of unexampled love and gratitude.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4241">Kirkland papers at Harvard</a></li>
+<li><a href="http://kirkland.harvard.edu/icb/icb.do">Kirkland House</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/kirkland.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="Graphic of President Kirkland against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a887f9" id="accordion-header-622eea6a887fa" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Samuel Webber					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a887f9" aria-labelledby="accordion-header-622eea6a887fa" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1806-1810</strong></p>
+<p>In the 18 months following the death of Joseph Willard, an epochal change swept through the University as liberal-minded Unitarians captured both the Hollis Professorship of Divinity (the institution’s oldest endowed chair) and the presidency. The new Hollis Professor was Henry Ware, Class of 1785. The new president was Samuel Webber (1759-1810) (himself rising from Harvard’s second oldest chair, the Hollis Professorship of Mathematics and Natural Philosophy).</p>
+<p>“The Unitarian victory in this double trial of strength, a logical outcome of the liberal tradition that had been slowly gathering momentum since the days of [John] Leverett and [William] Brattle [influential tutors during the Mather administration, with Leverett later becoming president in his own right], was [. . .] momentous. It ranks with the election of Charles W. Eliot in 1869, and the tipping out of Increase Mather in 1701, as one of the most important decisions in the history of the University. Orthodox Calvinists of the true puritan tradition now became open enemies to Harvard. [. . .] On the positive side, the effect was far-reaching. Unitarianism of the Boston stamp was not a fixed dogma, but a point of view that was receptive, searching, inquiring, and yet devout; a half-way house to the rationalistic and scientific point of view, yet a house built so reverently that the academic wayfarer could seldom forget that he had sojourned in a House of God.” (Samuel Eliot Morison, “Three Centuries of Harvard”)</p>
+<p>Death claimed Webber on July 17, 1810, after just four years in office – too short a span in which to realize ambitious hopes such as building an astronomical observatory. But through his election alone, Webber cast shadows far longer than he could have imagined.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4048">Webber papers at Harvard</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/webber.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Webber&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+	</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<section class=" c-block b-media-text c-block--layout-right c-block--width-grid t-theme--light">
+	<div class="b-media-text__container l-container">
+
+		<div class="b-media-text__media an-will-animate an-was-on-viewport">
+							<div class="b-media-text__img-wrap">
+					
+<figure class="c-image">
+
+	
+		<img class="c-image__image lazyloaded" alt="Wadsworth house" data-expand="200" data-parent-fit="width" data-src="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-768x576.jpg" srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-1536x1152.jpg 1536w 1152h" data-sizes="(min-width: 1260px) 1260px, 100vw" data-srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/090109_Features_SM_051-1536x1152.jpg 1536w 1152h" src="./History of the Presidency - Harvard University_files/090109_Features_SM_051-768x576.jpg" sizes="(min-width: 1260px) 1260px, 100vw">
+	
+	
+</figure>
+
+				</div>
+					</div>
+
+		<div class="b-media-text__content an-will-animate an-was-on-viewport">
+			
+<div class="c-block__content-block c-block__header b-media-text__content-container c-content-block c-content-block--layout-left">
+
+	
+<p class="c-block__leadin b-media-text__leadin c-content-block__leadin">
+	What’s in a name?</p>
+
+	
+	
+<h2 class="c-block__title b-media-text__title h3 c-content-block__title">
+	Wadsworth House</h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-media-text__text t-sink s-sink c-content-block__content">
+<p>Named for Harvard President Benjamin Wadsworth, Wadsworth House is the second oldest building at Harvard. General George Washington set up his first Massachusetts headquarters in the house while in command of the Revolutionary troops.</p>
+</div>
+			</div>
+
+</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<p class="has-text-align-center"><a href="https://www.harvard.edu/president/history/#">Back to top</a></p>
+
+
+
+<section class=" c-block b-accordion">
+	<div class="b-accordion__container l-container">
+
+		
+<header class="c-block__content-block c-block__header b-accordion__header c-content-block c-content-block--layout-left">
+
+	
+	
+	
+<h2 class="c-block__title b-accordion__title h3 c-content-block__title">
+	 </h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-accordion__description t-sink s-sink c-content-block__content">
+<h3>1700s<a name="1700s"></a></h3>
+</div>
+			</div>
+
+</header>
+
+		<div class="b-accordion__content">
+			<div class="c-accordion" id="accordion-group-622eea6a8ce0a" aria-multiselectable="true" data-js="c-accordion">
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8ce23" id="accordion-header-622eea6a8ce24" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Joseph Willard					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8ce23" aria-labelledby="accordion-header-622eea6a8ce24" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1781-1804</strong></p>
+<p>Almost 13 months after Samuel Langdon’s resignation (August 1780), Harvard finally found a new president in Joseph Willard (1738-1804), whom historian Samuel Eliot Morison has pronounced successful if not great. After the short terms of his two immediate predecessors, Willard’s longevity in office alone qualifies as no small measure of success.</p>
+<p>A far more substantive example is the founding of the Harvard Medical School in September 1782. The “Medical Institution of Harvard University” was the first faculty beyond the College. (Ironically, Willard had once aspired to become a physician.) While there are substantial grounds for considering Harvard a university even in the 17th century, the new professional school unquestionably made Harvard a university in every modern sense. (First based in Cambridge, the Medical School moved to Boston in 1810.)</p>
+<p>Important changes also came to the undergraduate scene. Only a few weeks before Willard’s election, students formed the Harvard Chapter of the Phi Beta Kappa honor society, which held its first Literary Exercises in 1782. PBK was only one of the many groups in which the period abounded. In 1787, French teacher Joseph Nancrède became Harvard’s first paid instructor in a modern language. (Before Nancrède’s arrival, students wishing to learn French had to use licensed outside teachers.)</p>
+<p>Less happily for students, the Harvard Corporation tried to lessen competitive dressing in 1786 by imposing a student dress code that banned silk outright. The code further prescribed blue-gray coats and four approved colors of waistcoats and breeches, along with particulars of dress tied to one’s year in school (e.g., varied ornamental details down to the buttonholes – but nothing in gold or silver, thank you!). Students detested these onerous requirements and the punishments incurred for transgressing them.</p>
+<p>Willard’s own sense of decorum required that students and tutors doff their hats when he entered the Yard. Such traditional formality extended to his personal contacts with students and made him seem rigid to many. Nevertheless, in 1799, Willard broke with tradition by giving his Commencement address in English instead of Latin – the first known example of a Harvard president’s use of the native tongue for this purpose.</p>
+<p>Born in Maine, Willard showed an early knack for mathematics and navigation. He once planned on going to sea and retained a lifelong interest in science. Academically, he was a late bloomer, finishing his undergraduate degree in his late 20s. Before becoming Harvard’s chief executive, he served as the College butler, a tutor in Greek, and a Fellow of the Corporation. Willard died in office on Sept. 25, 1804.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4031">Willard papers at Harvard</a></li>
+<li><a href="http://memory.loc.gov/cgi-bin/query/r?ammem/hlaw:@field%28DOCID+@lit%28dg022585%29%29">Letters of Delegates to Congress: Volume 22 November 1, 1784 – November 6, 1785: Samuel Holten to Joseph Willard</a></li>
+<li><a href="http://memory.loc.gov/cgi-bin/query/r?ammem/hlaw:@field%28DOCID+@lit%28dg018451%29%29">Letters of Delegates to Congress: Volume 18 March 1, 1781 – August 31, 1781: Arthur Lee to Joseph Willard</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/willard.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Willard&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8ce25" id="accordion-header-622eea6a8ce26" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Samuel Langdon					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8ce25" aria-labelledby="accordion-header-622eea6a8ce26" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1774-1780</strong></p>
+<p>After the mysterious resignation of Samuel Locke, the mantle of the presidency came to rest upon the shoulders of Samuel Langdon (1723-1797), whose term covered most of the Revolutionary era.</p>
+<p>For Harvard, the greatest disruption of the age came shortly after the Battles of Lexington and Concord in April 1775. On May 1, the Committee of Safety ordered the College to close early as Cambridge turned into an armed camp, with soldiers of the Revolution soon billeted in four Harvard buildings (Holden Chapel, Massachusetts and Hollis halls, and Stoughton College [dismantled in 1781]). Gen. George Washington briefly set up headquarters in Wadsworth House, and a thousand pounds of lead that had once repelled rain and snow on the roof of Harvard Hall went to deadly new use as bullets repelling British troops in Boston.</p>
+<p>By September 1775, the Harvard Corporation had decided to resume academic life in Concord. In June 1776, three months after British troops left Boston, the College received permission to return to Cambridge. During the winter of 1777-78, a second physical displacement loomed, when the Continental Army needed quarters for British prisoners of war: Gen. John Burgoyne and his troops, recently captured at Saratoga, N.Y. (Burgoyne and his staff occupied Apthorp House, then a commandeered property and now the master’s residence of Adams House.) Students had to leave Harvard for three months while other arrangements were eventually made.</p>
+<p>Amid this epic turmoil, Langdon presided over a much-diminished academic realm. From 1774 to 1780, the Corporation suspended public Commencements. Enrollment declined, and disrupted commerce led to one shortage after another, from books to bread. Harvard finances fared no better.</p>
+<p>Langdon’s Revolutionary fervor had made a favorable impression early on. (He had even prayed over the army on the night before the Battle of Bunker Hill.) But his words and deeds soon irritated students no end, what with scriptural harangues stretching to 90 minutes at the expense of Sunday-evening singing.</p>
+<p>Things came to a head in summer 1780, when students petitioned the Corporation for Langdon’s dismissal. Langdon admitted his presidential unsuitability and promised to resign. He did so on Aug. 30.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4015">Langdon papers at Harvard</a></li>
+<li><a href="http://memory.loc.gov/cgi-bin/query/r?ammem/hlaw:@field%28DOCID+@lit%28dg006272%29%29">Letters of Delegates to Congress: Volume 6 January 1, 1777 – April 30, 1777: John Hancock to Samuel Langdon</a></li>
+<li><a href="http://www.thecrimson.com/article/2006/2/10/parliamentary-roots-of-confidence-vote-highlight/">Parliamentary Roots of Confidence Vote Highlight Motion’s Strategic Uses (Harvard Crimson)</a></li>
+<li><a href="http://www.thecrimson.com/article/2005/2/22/controversy-echoed-at-baylor-the-faculty/">Controversy Echoed at Baylor (Harvard Crimson)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/langdon.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Langdon&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8ce27" id="accordion-header-622eea6a8ce28" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Samuel Locke					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8ce27" aria-labelledby="accordion-header-622eea6a8ce28" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1770-1773</strong></p>
+<p>Samuel Locke (1732-1778) entered the presidency with every promise of becoming a great academic executive. No less a contemporary than Yale President Ezra Stiles deemed him “a man of strength, penetration, and judgment, superior to Holyoke in everything except classical learning and personal dignity,” in the words of Harvard historian Samuel Eliot Morison.</p>
+<p>Most of Locke’s contemporaries thus found themselves at a loss to understand his resignation of Dec. 1, 1773 – not least because the Harvard Corporation volunteered no details in its bare-bones announcement. It took the 20th-century publication of Stiles’ diary to bring the reason to light: Locke had fathered a child by one of his maids. “Mr. Locke took the blame, retired to the country, and was promptly forgotten.” (Morison)</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/3998">Locke papers at Harvard</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/locke.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Locke&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8ce29" id="accordion-header-622eea6a8ce2a" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Edward Holyoke					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8ce29" aria-labelledby="accordion-header-622eea6a8ce2a" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1737-1769</strong></p>
+<p>The presidency of Edward Holyoke (1689-1769) brought many distinctive features to Harvard that endure to this day. The earliest evidence for the singing of the now-traditional Commencement hymn (a setting of Psalm 78: “Give ear, my children“) comes from Holyoke’s 1737 installation. Two venerable Harvard structures arose during his term: Holden Chapel (1744) and Hollis Hall (1763). A third, Old Harvard Hall, was lost to fire in 1764 (along with nearly all the College library and scientific equipment housed within its walls). The main portion of today’s Harvard Hall replaced it in 1766.</p>
+<p>And who bought that bizarre bit of Jacobean furniture now known as the President’s Chair? None other than Holyoke himself (who readily confessed his own ignorance of its history). The chair literally bears Holyoke’s personal impress, for he made the large oak pommels perched atop its front posts. Aptly enough, Holyoke was the first of several Harvard presidents to have his formal portrait painted while seated in this chair.</p>
+<p>Holyoke served for just over 32 years, making his the second-longest presidency in Harvard history (only Eliot’s 40-year term was longer). Many Harvard alumni from New England who played important roles in the American Revolutionary War were educated during his relatively liberal administration. (At least as early as the 1720s, the winds of revolution had begun to blow through Commencement debates. Analysis of the nature and function of government gathered momentum in debates of succeeding decades.)</p>
+<p>In both the humanities and the sciences, the curriculum underwent modernization, from the adoption of contemporary texts to the introduction of better science equipment and instruction. Holyoke openly supported the work of John Winthrop, the Hollis Professor of Mathematics and Natural Philosophy, who established the first experimental-physics laboratory in what is now the United States. A series of spring and fall public “exhibitions” (debates, dialogs, and orations) by upperclassmen began in 1756 and continued for more than a century.</p>
+<p>Most crucial of all was the revamping of the old educational system under which a single tutor taught all subjects to a given class. In January 1767, tutors began to specialize by teaching only a limited number of subjects.</p>
+<p>On June 1, 1769, shortly before his 80th birthday, this oldest of all Harvard presidents left his final distinctive mark. Speaking from his deathbed, Holyoke uttered an insight that still resonates in the ears of his successors: “If any man wishes to be humbled and mortified, let him become President of Harvard College.”</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/3982">Holyoke papers at Harvard</a></li>
+<li><a href="http://harvardmagazine.com/2001/11/the-table-is-set.html">The Table Is Set (Harvard Magazine)</a></li>
+<li><a href="http://www.oldburialhill.org/between/between_row07b.html">Old Burial Hill, Marblehead</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/holyoke-1.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="A portrait of President Holyoke." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8ce2b" id="accordion-header-622eea6a8ce2c" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Benjamin Wadsworth					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8ce2b" aria-labelledby="accordion-header-622eea6a8ce2c" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1725-1737</strong></p>
+<p>After the death of John Leverett, the Harvard Corporation offered the presidency to two ministers who declined the invitation. Finally, in June 1725, the Corporation elected Benjamin Wadsworth (1670-1737), one of their own number, who took the job more dutifully than joyfully.</p>
+<p>With £1,000 from the Massachusetts Great and General Court, the College soon built a new President’s House on the southern end of the Yard. Wadsworth began living there in November 1726, before the structure was completed in the following year. Today, Wadsworth House, which served as Harvard’s executive residence until the end of the Everett administration in 1849, is Harvard’s second-oldest building.</p>
+<p>Under Wadsworth, the Harvard Governing Boards produced a new set of College laws in 1734 (the first major revision since 1692), and the curriculum was improved. Student behavior, however, did not follow suit. “Wadsworth was no disciplinarian, and the young men resented a puritan restraint that was fast becoming obsolete. The faculty records, which begin with Wadsworth’s administration, are full of ‘drinking frolicks,’ poultry-stealing, profane cursing and swearing, card-playing, live snakes in tutors’ chambers, bringing ‘Rhum’ into college rooms, and ‘shamefull and scandalous Routs and Noises for sundry nights in the College Yard.’“ (Samuel Eliot Morison)</p>
+<p>In 1727, London merchant Thomas Hollis established the Hollis Professorship of Mathematics and Natural Philosophy, Harvard’s second named chair. Six years earlier, Hollis had given the College its first endowed position (in divinity).</p>
+<p>Kindly and intelligent, Wadsworth was “faithful, devoted, and methodical,” Morison reports. “He combed the records for evidence of college property, and did his best to recover lands alienated through the neglect of college officers or the enterprise of squatters.” He died in office on March 27, 1737 (= March 16, 1736, in the Julian calendar then used by English colonists).</p>
+<ul>
+<li><a href="https://iiif.lib.harvard.edu/manifests/view/drs:14299446$54i">Wadsworth papers at Harvard</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/wadsworth.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="A portrait of President Wadsworth" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a8ce2d" id="accordion-header-622eea6a8ce2e" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						John Leverett					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a8ce2d" aria-labelledby="accordion-header-622eea6a8ce2e" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1708-1724</strong></p>
+<p>For nearly six years (1701-1707) after the departure of Increase Mather, Harvard’s chief presiding officer was Vice President Samuel Willard, who resigned because of illness in August 1707 and died in the fall. The presidential installation of John Leverett (1662-1724) in January 1708 marked the end of more than 35 years of institutional instability tracing back to the days of Leonard Hoar.</p>
+<p>Leverett was Harvard’s first secular president. With his extensive and varied background in public life, he loomed large, both in and beyond the Yard. He had also taught during the Mather administration (1685-1697) and served as a Fellow of the Harvard Corporation (1685-1700, 1707).</p>
+<p>The new president immediately set about ensuring that the College received its due from various bequests. While the curriculum remained virtually unchanged, enrollment soon began to grow. By November 1718, Harvard had 124 resident students, including resident graduates and those staying on to earn a master’s degree. Massachusetts Hall – Harvard’s oldest surviving structure, built as a dormitory in 1720 – dates from this period.</p>
+<p>During the Leverett era, the College’s first endowed chair (the Hollis Professorship of Divinity, 1721) was established, the first student club came into being (1719), and the first student publication (“The Telltale,” 1721) appeared. According to Leverett’s diary, the faculty struggled mightily to control unsavory student behavior such as swearing, “riotous Actions,” and card-playing – to which student diaries add attending horse races and pirate hangings in Boston.</p>
+<p>Harvard historian Samuel Eliot Morison offers this capsule summary of the period: “Leverett took the presidency when Harvard was weak and disorganized, after a generation of charter-mongering and of non-resident presidents. He put her finances on a firm basis, and obtained her first endowed chair. But his service to the College and the country lies more in the principles that he maintained and the precedents that he established, than in positive accomplishments. In an era of political and sectarian strife, he was steadfast in preserving the College from the devastating control of a provincial orthodoxy. He kept it a house of learning under the spirit of religion, not, as the Mathers and their kind would have had it, the divinity school of a particular sect. Leverett, in a word, founded the liberal tradition of Harvard University.”</p>
+<p>He died in office on May 14, 1724 (= May 3 in the Julian calendar then used by English colonists). Remembering Leverett after his death, Cambridge minister Nathaniel Appleton hailed him as a “great and generous Soul” who was divinely destined for distinction.</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4298">Leverett papers at Harvard</a></li>
+<li><a href="http://www.thecrimson.com/article/2001/11/1/harvard-explained-all-the-seals-were/">Harvard Explained: What are the meaning of the house and graduate school shields?</a></li>
+<li><a href="http://harvardmagazine.com/2001/11/installation-roistering.html">Installation Roistering (Harvard Magazine)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/leverett.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Leverett&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+	</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<section class=" c-block b-media-text c-block--layout-right c-block--width-grid t-theme--light">
+	<div class="b-media-text__container l-container">
+
+		<div class="b-media-text__media an-will-animate an-was-on-viewport">
+							<div class="b-media-text__img-wrap">
+					
+<figure class="c-image">
+
+	
+		<img class="c-image__image lazyloaded" alt="The library of Dunster House" data-expand="200" data-parent-fit="width" data-src="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-768x576.jpg" srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-1536x1152.jpg 1536w 1152h" data-sizes="(min-width: 1260px) 1260px, 100vw" data-srcset="https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-375x281.jpg 375w 281h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-768x576.jpg 768w 576h, 
+https://www.harvard.edu/president/wp-content/uploads/sites/2/2021/01/120519_Features_KS_006-1536x1152.jpg 1536w 1152h" src="./History of the Presidency - Harvard University_files/120519_Features_KS_006-768x576.jpg" sizes="(min-width: 1260px) 1260px, 100vw">
+	
+	
+</figure>
+
+				</div>
+					</div>
+
+		<div class="b-media-text__content an-will-animate an-was-on-viewport">
+			
+<div class="c-block__content-block c-block__header b-media-text__content-container c-content-block c-content-block--layout-left">
+
+	
+<p class="c-block__leadin b-media-text__leadin c-content-block__leadin">
+	What’s in a name?</p>
+
+	
+	
+<h2 class="c-block__title b-media-text__title h3 c-content-block__title">
+	Dunster House</h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-media-text__text t-sink s-sink c-content-block__content">
+<p>Named in honor of Henry Dunster, who became the first president of Harvard College immediately after his arrival in the Colony of Massachusetts Bay in 1640. When he left the College in 1654, it had become a well-established institution.</p>
+</div>
+			</div>
+
+</div>
+		</div>
+
+	</div>
+</section>
+
+
+
+<p class="has-text-align-center"><a href="https://www.harvard.edu/president/history/#">Back to top</a></p>
+
+
+
+<section class=" c-block b-accordion">
+	<div class="b-accordion__container l-container">
+
+		
+<header class="c-block__content-block c-block__header b-accordion__header c-content-block c-content-block--layout-left">
+
+	
+	
+	
+<h2 class="c-block__title b-accordion__title h3 c-content-block__title">
+	 </h2>
+
+	
+	<div class="c-content-block__content-wrap">
+		<div class="c-block__description b-accordion__description t-sink s-sink c-content-block__content">
+<h3>1600s<a name="1600s"></a></h3>
+</div>
+			</div>
+
+</header>
+
+		<div class="b-accordion__content">
+			<div class="c-accordion" id="accordion-group-622eea6a90230" aria-multiselectable="true" data-js="c-accordion">
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a90248" id="accordion-header-622eea6a90249" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Increase Mather					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a90248" aria-labelledby="accordion-header-622eea6a90249" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: Acting President, 1685-1686; Rector (a unique title), 1686-1692; President, 1692-1701</strong></p>
+<p>Increase Mather (1639-1723) had been the Governing Boards’ first choice to succeed Urian Oakes. After the death of John Rogers, however, the job offer first went to Joshua Moody, a minister from Portsmouth, N.H. Moody declined. The second possibility, one Michael Wigglesworth, promptly removed himself from consideration.</p>
+<p>Not until March 1685 did the Corporation offer the position of president pro tempore to Mather. He might with equal justice have been declared “president in absentia,” for in the 16 years during which Mather headed the College under three distinct titles, he spent mere months living in Cambridge. Mather commuted by ferry to Cambridge from his home in Boston’s North End, where he continued to serve his congregation. Indeed, during the last four years of his rectorship, Mather was not even in the country, much less in Cambridge: he was engaged in political lobbying in England.</p>
+<p>To make matters even more tenuous, a court decision had voided and vacated the Royal Charter for Massachusetts Bay Colony in October 1684, thus uprooting many legal arrangements made under the old charter. For the College, this meant that the Charter of 1650, the document that created the Harvard Corporation, was in legal limbo at best and defunct at worst.</p>
+<p>Shortly after Mather returned to Boston in May 1692, the Charter of 1650 enjoyed a brief restoration. “Mather brought to Boston a new Province Charter for Massachusetts Bay, and the new General Court proceeded to reincorporate the College,” as Harvard historian Samuel Eliot Morison explains. “In this, as in several subsequent short-lived college charters, Mather’s object was to keep the College under control of the Congregational Church, and free of political influence.”</p>
+<p>For the duration of Mather’s presidency, power struggles raged back and forth across the Atlantic over the crafting of a College charter that could balance colonial desires for autonomy against royal demands for control. A small flotilla of charters real and imagined all sank beneath the waves.</p>
+<p>Finally in 1701, Mather’s political rivals in Boston got the upper hand and pushed him out on a technicality. The General Court gave Mather an ultimatum: resign the ministry and move to Cambridge, or give up the presidency. In midsummer, having spent six most unpleasant months in Cambridge, Mather fled back across the Charles, where his congregation welcomed him with open arms. Considering the presidency thus vacated, the General Court put Samuel Willard in charge as vice president of the College.</p>
+<p>In July 1702, Mather himself confessed to his diary that “[t]he Colledge is in a miserable state. [. . .] The Lord pardon me in that I did no more good whilest related to that society.”</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4291">Mather papers at Harvard</a></li>
+<li><a href="http://mather.harvard.edu/about-mather">Mather House history</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/mather-1.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="A graphic of President Mather against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a9024a" id="accordion-header-622eea6a9024b" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						John Rogers					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a9024a" aria-labelledby="accordion-header-622eea6a9024b" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1682-1684</strong></p>
+<p>After the death of President Urian Oakes, Increase Mather promptly emerged as the first-choice successor. But Mather was not yet to rule the Harvard roost: his church would not release him from his pastoral obligations. Another candidate was offered the job. He too declined.</p>
+<p>Finally in spring 1682, the Governing Boards found a willing choice in John Rogers (1630-1684), who at age 6 had crossed the Atlantic with his parents to settle in New England. Cotton Mather remembered Rogers as a sweet-tempered, genuinely pious, and accomplished gentleman given to long-windedness at daily prayers. With such personal charm and character, Rogers “might well have made a successful president,” in the estimation of Harvard historian Samuel Eliot Morison.</p>
+<p>But through no fault of his own, Rogers continued the disruptive trend set in motion during the Hoar administration (1672-1675). Whatever his presidential gifts, Rogers had no chance to display them. Little more than two years after his election, he died most inauspiciously on July 12, 1684 (the day after Commencement; = July 2 in the Julian calendar then used by English colonists), during a total solar eclipse.</p>
+<ul>
+<li><a href="http://id.lib.harvard.edu/alma/990095126010203941/catalog">HOLLIS holdings</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/rogers.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Rogers&#39; signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a9024c" id="accordion-header-622eea6a9024d" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Urian Oakes					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a9024c" aria-labelledby="accordion-header-622eea6a9024d" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1680-1681</strong></p>
+<p>In April 1675, a few weeks after Leonard Hoar’s resignation in March, Urian Oakes (ca. 1631-1681) agreed to take the position of president pro tempore. This acting presidency persisted for five years. With no better candidate having come forward, the Harvard Governing Boards finally gave Oakes the full title in February 1680. In early June, Oakes overcame his reluctance and accepted the new role. The delay proved ill timed: Oakes died in office on Aug. 4, 1681 (= July 25 in the Julian calendar then used by English colonists). Many feared that the institution had little chance of surviving much longer.</p>
+<p>Harvard historian Samuel Eliot Morison describes Oakes as “a little bit of a man, cram-full of learning, intolerance, and choler. No mean poet in English, and a writer of vigorous prose, he has left on record a series of lengthy Latin Commencement orations that are models of academic punning and classical wit.” Indeed, Cotton Mather hailed Oakes as the greatest “Master of the true, pure, Ciceronian Latin and Language” in the land.</p>
+<p>The Oakes years saw the completion of Old Harvard Hall in 1677 as a replacement for “Old College” (Harvard’s short-lived first new building at the southern end of the Yard; fire destroyed Old Harvard in 1764).</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4268">Oakes papers at Harvard</a></li>
+<li><a href="http://www.firstchurchcambridge.org/about-us/first-church-history">First Church in Cambridge history</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="75" height="75" src="./History of the Presidency - Harvard University_files/25_oakes.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Oakes signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a9024e" id="accordion-header-622eea6a9024f" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Leonard Hoar					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a9024e" aria-labelledby="accordion-header-622eea6a9024f" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1672-1675</strong></p>
+<p>By the time Leonard Hoar (ca. 1630-1675) became president in 1672, Harvard had lasted long enough to produce homegrown leadership. Not until the 1971 arrival of Derek Bok, who holds a Harvard law degree, would there be a Harvard chief executive who, like the first two presidents, had not been educated at the College.</p>
+<p>Hoar took office with every hope of transforming Harvard into a major research institution, complete with chemical laboratories, a botanical garden and an agricultural-research station, and a mechanical workshop – all outlined in a letter of December 1672 to Robert Boyle, the eminent British chemist and physicist. But so grand an enterprise was not to flower in full until the 19th century.</p>
+<p>The detailed reasons for Hoar’s brief presidency have remained obscure: historian Samuel Eliot Morison notes that while everyone on the local scene talked about Hoar, little definitive evidence got committed to paper. It seems clear, however, that both his personality and actions proved unacceptable to too many. Students mocked his words and deeds, and tutors resigned in disgust. At one point, Hoar’s heavy-handed discipline resulted in the flogging of a student by a jailer who was later removed for cruelty.</p>
+<p>Twice (in October 1673 and October 1674), Hoar’s case came before the Great and General Court, with the threat of dismissal hanging in the balance. By the winter of 1674-75, conditions had degenerated to the point that the entire student body walked out. In March 1675, Hoar resigned. Utterly broken in spirit, he died shortly afterwards. More than three centuries later in 1976, at the request of a portrait painter touched by Hoar’s plight, the Massachusetts Senate approved a resolution clearing Hoar of misconduct.</p>
+<p>Hoar left behind one quiet but greatly influential innovation: a series of triennial (three-year) catalogs of Harvard graduates listed by their respective Classes. When the first installment of 200 graduates appeared in 1674, it was probably the first list of college or university alumni published anywhere, according to Morison. After 1875, the compendium appeared at five-year intervals. The last “Quinquennial Catalogue” (which also includes all Harvard officers to date) appeared in 1930 and remains a prime reference on the 65,584 individuals who had thus far received Harvard degrees.</p>
+<ul>
+<li><a href="http://www.thecrimson.com/article/2006/2/10/parliamentary-roots-of-confidence-vote-highlight/">Parliamentary Roots of Confidence Vote Highlight Motion’s Strategic Uses (The Harvard Crimson)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/hoar.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Hoar&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a90250" id="accordion-header-622eea6a90251" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Charles Chauncy					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a90250" aria-labelledby="accordion-header-622eea6a90251" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1654-1672</strong></p>
+<p>Like his predecessor, Charles Chauncy (1592-1672) got into trouble for his religious beliefs. Chauncy’s troubles, however, preceded his arrival in the New World and, in fact, probably contributed to his decision to emigrate in 1638. Prone to quibble over small points, Chauncy had even served a brief prison sentence imposed because of “his tender conscience in the matter of ceremonies.” (Samuel Eliot Morison)</p>
+<p>Despite such episodes of nonconformity, President Chauncy continued along the path laid out by Henry Dunster. Chauncy’s outlook embraced both religious orthodoxy and scientific curiosity. On the one hand, he demanded that students adhere to a rigorous program of religious devotions. (As Morison observes, “It is a safe guess that no generation of Harvard students listened to so many sermons as the pupils of President Chauncy.”) On the other, he supported Galileo’s modern astronomical perspective, and the College received its first telescope shortly before he died in office. Many regard Chauncy as the leading scholar in the New England of his day and perhaps the most learned of all Harvard presidents of the colonial era. Arabic was but one of the several foreign languages at his command.</p>
+<p>During the Chauncy years, America’s first university press blossomed in the Yard, producing materials in both English and Native languages. (Not all such activity found favor across the river in Boston: in 1662, responding to unspecified volumes from Harvard’s printing press, the Great and General Court passed the Bay Colony’s first law on book censorship.) Perhaps the most notable publication was the 1,200-page Indian Bible (1663), translated into Algonquian by John Eliot. The Indian Bible – the first Bible printed in North America – remained in use for almost two centuries. This period also brought Harvard’s first Native American graduate: Caleb Cheeshahteaumauk, Class of 1665.</p>
+<p>One never-ending frustration was Chauncy’s annual salary of £100, much of it paid in goods. This was more than Dunster’s salary (averaging £55 a year) but hardly enough for Chauncy’s wife, eight children (Chauncy’s six sons graduated from Harvard: two in 1651, one in 1657, and three in 1661), and three servants. Despite various appeals to the colonial legislature in Boston, Chauncy never succeeded in getting a raise.</p>
+<p>Chauncy died in office on Feb. 29, 1672 (= Feb. 19, 1671, in the Julian calendar then used by English colonists).</p>
+<ul>
+<li><a href="http://www.firstparishcambridge.org/about-us/our-stories/history/">The History of First Parish</a></li>
+<li><a href="http://www.reformedreader.org/history/armitage/ch05.htm">A History of the Baptists by Thomas Armitage</a></li>
+<li><a href="http://www.thecrimson.com/article/2008/6/4/the-magic-of-numbers-the-hallmark/">The Magic of Numbers (The Harvard Crimson)</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="315" src="./History of the Presidency - Harvard University_files/chauncy.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="A portrait of President Chauncy against a crimson background." loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+		<div class="c-accordion__row">
+		<h3>
+		<button class="c-accordion__header" aria-controls="accordion-content-622eea6a90252" id="accordion-header-622eea6a90253" aria-expanded="false">
+					<span class="c-accordion__header-container">
+						Henry Dunster					</span>
+		</button>
+		</h3>
+		<div class="c-accordion__content" id="accordion-content-622eea6a90252" aria-labelledby="accordion-header-622eea6a90253" hidden="true" aria-hidden="true" role="region">
+			<div class="c-accordion__content-container t-sink s-sink" data-depth="0" data-autop="true">
+								<div class="b-accordion__inner-content t-sink s-sink ">
+					<p><strong>Term of office: 1640-1654</strong></p>
+<p><em>Note: Although founded in 1636, Harvard College (so named since 1639) did not begin operating until 1638, under Master Nathaniel Eaton. The College closed during academic year 1639-40 and reopened in 1640 under its first president, Henry Dunster.</em></p>
+<p>In August 1640, when Henry Dunster (1609-1659) arrived in Boston from his native England, he could scarcely have imagined that three weeks later, he would be asked to serve as Harvard’s first president – much less that he would accept the offer to preside over little more than an institutional idea. Almost a year earlier, the Great and General Court of the Massachusetts Bay Colony had fined and dismissed Master Nathaniel Eaton for neglecting and mistreating students during the College’s first year of operation (1638-39). With no one at the helm, the College simply shut down. Dunster’s arrival set things back in motion.</p>
+<p>During Dunster’s administration, the College built its first structures (none still standing), Harvard Yard began to expand (in a process that continued through the mid-1830s), and “VERITAS” was proposed (but not promulgated) as the first of Harvard’s three mottoes. The College also codified (in Latin and English) its first rules for student conduct. Through marriage to Elizabeth Glover (1641), Dunster gained the first printing press in England’s American colonies – the same machine that had produced the landmark “Bay Psalm Book” (1640). He later gave or sold it to the College.</p>
+<p>Dunster’s single most important legacy came in spring 1650 with the drafting of the College’s papers of incorporation. The General Court promptly approved this “Charter of 1650,” which established a perpetually renewing, seven-member body that “shall be called by the name of President and Fellows of Harvard College” (a.k.a. the Harvard Corporation), the institution’s second governing body (after the Board of Overseers) and what is now the oldest corporation in the Western Hemisphere.</p>
+<p>For students, the most momentous change came in spring 1652, when the Corporation adopted a new rule requiring four years (instead of three) for the completion of the undergraduate degree. The Class of 1655 (which entered in 1651) was the first group to feel the full impact of this addition. Despite murmurs of student discontent, Dunster successfully defended the new rule. (The Class of 1655, however, resurrected its protest under President Chauncy, with 15 of its 17 members refusing to pay the Commencement fee or take their degrees.)</p>
+<p>The end of Dunster’s term was clouded by controversy. A local law forbade any criticism of the practice of baptizing infants. Dunster opposed this view, however, believing that the only scripturally sound practice was adult baptism. Not only did he refuse to have his youngest child baptized, but he also intervened publicly at the baptism of another local infant. After a display of such heretical behavior, Dunster had but two options: recant or resign. With the added frustration of finding himself on the wrong side in a transfer of certain financial powers from the Corporation to the Overseers, he twice tendered his resignation in 1654. The second was accepted in the fall. Dunster spent the rest of his days in Charlestown and Scituate.</p>
+<p>As Harvard historian Samuel Eliot Morison sums things up, “Dunster’s genius for organization was such that the curriculum, the forms, and the institutions established under his presidency long outlasted his time, and even his century. Harvard University grew out of the Liberal Arts college as Dunster left it; and the Charter of 1650 that he obtained, and in all probability drafted, still serves as constitution of the modern University.”</p>
+<ul>
+<li><a href="https://hollisarchives.lib.harvard.edu/repositories/4/resources/4252">Dunster papers at Harvard</a></li>
+<li><a href="http://dunster.harvard.edu/">Dunster House history</a></li>
+<li><a href="http://www.firstparishcambridge.org/about-us/our-stories/history/">The History of First Parish</a></li>
+</ul>
+				</div>
+									<figure class="b-accordion__img">
+						<img width="210" height="210" src="./History of the Presidency - Harvard University_files/dunster.jpg" class="attachment-gallery-thumb size-gallery-thumb" alt="President Dunster&#39;s signature" loading="lazy">					</figure>
+							</div>
+		</div>
+	</div>
+	</div>
+		</div>
+
+	</div>
+</section>
+		</div>
+
+	</main>
+
+
+		
+<footer class="site-footer" data-gtm-vis-recent-on-screen-36284894_45="181204" data-gtm-vis-first-on-screen-36284894_45="181204" data-gtm-vis-total-visible-time-36284894_45="100" data-gtm-vis-has-fired-36284894_45="1">
+
+	<div class="l-container site-footer__container">
+		<div class="site-footer__row site-footer__row--navigation">
+			<div class="site-footer__menu-col">
+	<h2 class="site-footer__menu-heading">Security &amp; Brand</h2>
+	<nav class="site-footer__nav" aria-label="Security &amp; Brand Navigation">
+
+		<ol class="site-footer__nav-list">
+			<li class="footer-one__item"><a href="https://www.harvard.edu/copyright-issue" class="footer-one__action" data-attribute="report-copyright-infringement">Report Copyright Infringement</a></li><li class="footer-one__item"><a href="https://www.harvard.edu/security-issue" class="footer-one__action" data-attribute="report-security-issue">Report Security Issue</a></li><li class="footer-one__item"><a href="https://trademark.harvard.edu/pages/trademark-notice" class="footer-one__action" data-attribute="trademark-notice">Trademark Notice</a></li>		</ol>
+
+	</nav>
+</div>
+			<div class="site-footer__menu-col">
+	<h2 class="site-footer__menu-heading">Website</h2>
+	<nav class="site-footer__nav" aria-label="Website Navigation">
+
+		<ol class="site-footer__nav-list">
+			<li class="footer-two__item"><a href="https://accessibility.harvard.edu/" class="footer-two__action" data-attribute="accessibility">Accessibility</a></li><li class="footer-two__item"><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy" class="footer-two__action" data-attribute="digital-accessibility">Digital Accessibility</a></li><li class="footer-two__item"><a href="https://www.harvard.edu/privacy-statement" class="footer-two__action" data-attribute="privacy-statement">Privacy Statement</a></li>		</ol>
+
+	</nav>
+</div>
+			<div class="site-footer__menu-col">
+	<h2 class="site-footer__menu-heading">Get In Touch</h2>
+	<nav class="site-footer__nav" aria-label="Get In Touch Navigation">
+
+		<ol class="site-footer__nav-list">
+			<li class="footer-three__item"><a href="https://www.harvard.edu/contact-harvard" class="footer-three__action" data-attribute="contact-harvard">Contact Harvard</a></li><li class="footer-three__item"><a href="https://www.harvard.edu/maps-directions" class="footer-three__action" data-attribute="maps-directions">Maps &amp; Directions</a></li><li class="footer-three__item"><a href="https://hr.harvard.edu/jobs" class="footer-three__action" data-attribute="jobs">Jobs</a></li>		</ol>
+
+	</nav>
+</div>
+		</div>
+
+		<div class="site-footer__row site-footer__row--secondary">
+			<div class="site-footer__copyright">
+				<p>© 2022 The President and Fellows of Harvard College</p>
+			</div>
+			<div class="site-footer__logo ">
+				<a href="https://www.harvard.edu/">
+					<img src="./History of the Presidency - Harvard University_files/footer-logo.svg" alt="Harvard University">
+				</a>
+
+							</div>
+			<div class="site-footer__social ">
+				
+<div class="social-follow">
+
+	<ul class="social-follow__list">
+					<li class="social-follow__item social-follow__item--facebook">
+				<a href="https://facebook.com/harvard" class="social-follow__anchor" rel="me noopener" title="Facebook" target="_blank">
+					<span>Facebook</span>
+				</a>
+			</li>
+					<li class="social-follow__item social-follow__item--twitter">
+				<a href="https://twitter.com/harvard" class="social-follow__anchor" rel="me noopener" title="Twitter" target="_blank">
+					<span>Twitter</span>
+				</a>
+			</li>
+					<li class="social-follow__item social-follow__item--instagram">
+				<a href="https://www.instagram.com/harvard" class="social-follow__anchor" rel="me noopener" title="Instagram" target="_blank">
+					<span>Instagram</span>
+				</a>
+			</li>
+					<li class="social-follow__item social-follow__item--youtube">
+				<a href="https://youtube.com/harvard" class="social-follow__anchor" rel="me noopener" title="YouTube" target="_blank">
+					<span>YouTube</span>
+				</a>
+			</li>
+			</ul>
+
+</div>
+			</div>
+		</div>
+
+	</div>
+
+</footer>
+
+	</div><!-- .l-wrapper -->
+
+			<script>window.Promise ||
+			document.write('<script src="https://www.harvard.edu/president/wp-content/themes/core-child/assets/js/vendor/es6-promise.auto.js"><\/script>');
+		</script>
+		<script src="./History of the Presidency - Harvard University_files/vendor.min.js.download" id="tribe-scripts-vendor-js"></script>
+<script id="tribe-scripts-scripts-js-extra">
+var modern_tribe_i18n = {"help_text":{"msg_limit":"There is a limit to the messages you can post.","secondary_nav_toggle":"Explore this section"},"tooltips":{"add_to_save":"Add Photo to Saved Items","in_this_photo":"Products in this photo"}};
+var modern_tribe_config = {"images_url":"https:\/\/www.harvard.edu\/president\/wp-content\/themes\/core-child\/assets\/img\/theme","template_url":"https:\/\/www.harvard.edu\/president\/wp-content\/themes\/core\/","script_debug":"","hmr_dev":"","block_theme_service_worker":"","ppp":"30","home_url":"https:\/\/www.harvard.edu\/president"};
+</script>
+<script src="./History of the Presidency - Harvard University_files/scripts.min.js.download" id="tribe-scripts-scripts-js"></script>
+<script src="./History of the Presidency - Harvard University_files/comment-reply.min.js.download" id="comment-reply-js"></script>
+<script src="./History of the Presidency - Harvard University_files/wp-embed.min.js.download" id="wp-embed-js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-415bcf4c4af1a9108ef","applicationID":"400299824","transactionName":"YVcDYRYDVhdVUBFcWlgdIFYQC1cKG0MEUlA=","queueTime":0,"applicationTime":325,"atts":"TRAAF14ZRRk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","116026588849778");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=116026588849778&amp;ev=PageView&amp;noscript=1"></noscript>
+<script type="text/javascript" id="">Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(a){a=(this.document||this.ownerDocument).querySelectorAll(a);for(var b=a.length;0<=--b&&a.item(b)!==this;);return-1<b});</script><script type="text/javascript" id="">(function(){var e=(new Date).getTime(),a=0,k=0,c=!0,h=!1,l=function(){k=(new Date).getTime();a+=k-e;c=!0},f=function(b){c&&(c=!1,e=(new Date).getTime(),h=!1);window.clearTimeout(m);m=window.setTimeout(l,5E3)},d=function(b,n){window.addEventListener?window.addEventListener(b,n):window.attachEvent&&window.attachEvent("on"+b,n)},g=function(b){c||(a+=(new Date).getTime()-e);!h&&0<a&&36E5>a&&window.dataLayer.push({event:"nonIdle",nonIdleTimeElapsed:a});c&&(h=!0);b&&"beforeunload"===b.type&&window.removeEventListener("beforeunload",
+g);a=0;e=(new Date).getTime();window.setTimeout(g,15E3)};d("mousedown",f);d("keydown",f);d("scroll",f);d("mousemove",f);d("beforeunload",g);var m=window.setTimeout(l,5E3);window.setTimeout(g,15E3)})();</script></body></html>
